@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/katya/ontologies/2024/sports/"
+     xml:base="http://www.semanticweb.org/katya/ontologies/2024/sports/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ontologies="http://www.semanticweb.org/katya/ontologies/2024/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/katya/ontologies/2024/sports">
+        <terms:created>24/07/2024</terms:created>
+        <terms:creator>Ekaterina Krasnova</terms:creator>
+        <terms:description>This category reveals the belief that hidden forces and powerful interests manipulate sports outcomes, events, and organizations, questioning the integrity of official accounts.</terms:description>
+        <terms:title>Sports</terms:title>
+        <ontologies:user_story>Taylor, a dedicated football fan from London, has always been wary of controversial referee decisions in high-stakes matches. One evening, while exploring an online sports forum, Taylor comes across a post by a user named “TruthSeeker,” who claims to have uncovered evidence of referee corruption in major football leagues.
+TruthSeeker alleges that a covert network of betting syndicates manipulates crucial games by bribing referees and threatening them into making biased decisions. According to the post, these decisions are designed to benefit certain teams and influence betting odds, ultimately lining the pockets of those behind the syndicates. TruthSeeker provides what they purport are leaked documents and emails detailing secret payments and communications between referees and betting organizations.
+Intrigued and concerned, Taylor decides to dig deeper. They cross-reference the provided documents with match footage and reports of contentious decisions. Taylor identifies troubling patterns, such as frequent penalty calls and red cards that disproportionately favor specific teams during critical matches, which seem to support TruthSeeker’s claims.
+Driven by these findings, Taylor prepares a detailed report and posts it on the forum, complete with visual evidence and a thorough analysis of the patterns observed. The report generates significant discussion and debate among forum members, with some questioning its validity while others express alarm at the potential implications.
+Although Taylor’s efforts do not lead to an official investigation, their report raises awareness about alleged referee corruption in the sports community. Feeling both satisfied and frustrated, Taylor remains committed to uncovering the truth and continues to follow the evolving story of corruption in football.</ontologies:user_story>
+        <rdfs:comment>In this ontology, the aim is to model a conspiracy theory related to sports, specifically focusing on allegations of referee corruption.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/user_story -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/user_story"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/createdReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/createdReport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Report"/>
+        <rdfs:comment>Connects a person to the report they created.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/identifiedBias -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/identifiedBias">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Team"/>
+        <rdfs:comment>Connects a person to the team(s) they identified as being favored.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/initiatedInvestigation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/initiatedInvestigation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Authorities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Investigation"/>
+        <rdfs:comment>Connects authorities to the investigation they initiated.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/involvedTeam -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/involvedTeam">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Team"/>
+        <rdfs:comment>Connects a match to the teams involved.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/manipulatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/manipulatedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/BettingSyndicate"/>
+        <rdfs:comment>Connects a match to the betting syndicate that manipulated it.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/performedAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/performedAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Action"/>
+        <rdfs:comment>Connects a person to an action they took.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/pressuredAuthorities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/pressuredAuthorities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Community"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Authorities"/>
+        <rdfs:comment>Connects a community to the authorities they pressured.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/providedEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/providedEvidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Whistleblower"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Evidence"/>
+        <rdfs:comment>Connects a whistleblower to the evidence they provided.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/relatedInvestigation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/relatedInvestigation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Action"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Investigation"/>
+        <rdfs:comment>Connects an action to the investigation it relates to.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/relatedMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/relatedMatch">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match"/>
+        <rdfs:comment>Connects evidence to the match it is related to.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/reportedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/reportedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Community"/>
+        <rdfs:comment>Connects a report to the community where it was shared.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Action">
+        <rdfs:comment>Represents any activity or measure taken by individuals or groups in relation to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Authorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Authorities">
+        <rdfs:comment>Represents official bodies or institutions responsible for investigation and enforcement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/BettingSyndicate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/BettingSyndicate">
+        <rdfs:comment>Represents an organized group involved in manipulating match outcomes through betting.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Community">
+        <rdfs:comment>Represents a group of people who share a common interest or belief in the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Evidence">
+        <rdfs:comment>Represents any piece of information or material that suggests inconsistencies or supports the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Investigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Investigation">
+        <rdfs:comment>Represents the process of inquiring or examining the details related to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Match -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Match">
+        <rdfs:comment>Represents a specific football match relevant to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Person">
+        <rdfs:comment>Represents an individual involved in the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Report">
+        <rdfs:comment>Represents documents or accounts regarding the events and findings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Team">
+        <rdfs:comment>Represents a football team involved in the matches related to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Whistleblower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Whistleblower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Person"/>
+        <rdfs:comment>Represents a person who exposes hidden information relevant to the conspiracy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/BettingGroupX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/BettingGroupX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/BettingSyndicate"/>
+        <rdfs:comment>A covert network of betting syndicates.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/CorruptionInvestigation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/CorruptionInvestigation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Investigation"/>
+        <rdfs:comment>An investigation into the alleged referee corruption.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Emails -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Emails">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Evidence"/>
+        <ontologies:relatedMatch rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match2"/>
+        <rdfs:comment>Emails between referees and betting organizations.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/FootballFederation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/FootballFederation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Authorities"/>
+        <ontologies:relatedInvestigation rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/CorruptionInvestigation"/>
+        <rdfs:comment>The official football federation.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/FootballForum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/FootballForum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Community"/>
+        <ontologies:pressuredAuthorities rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/FootballFederation"/>
+        <rdfs:comment>An online sports forum.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/InvestigationAction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/InvestigationAction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Action"/>
+        <ontologies:relatedInvestigation rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/CorruptionInvestigation"/>
+        <rdfs:comment>Actions taken by Taylor to investigate the claims.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/LeakedDocuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/LeakedDocuments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Evidence"/>
+        <ontologies:relatedMatch rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match1"/>
+        <rdfs:comment>Documents detailing secret payments and communications.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Match1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Match1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match"/>
+        <ontologies:involvedTeam rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/TeamA"/>
+        <ontologies:manipulatedBy rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/BettingGroupX"/>
+        <rdfs:comment>A high-stakes football match.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Match2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Match2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Match"/>
+        <ontologies:involvedTeam rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/TeamB"/>
+        <rdfs:comment>Another significant football match.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/Taylor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/Taylor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Person"/>
+        <ontologies:createdReport rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/TaylorReport"/>
+        <ontologies:identifiedBias rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/TeamA"/>
+        <ontologies:identifiedBias rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/TeamB"/>
+        <ontologies:performedAction rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/InvestigationAction"/>
+        <rdfs:comment>A dedicated football fan from London.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/TaylorReport -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/TaylorReport">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Report"/>
+        <ontologies:reportedIn rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/FootballForum"/>
+        <rdfs:comment>A detailed report prepared by Taylor.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/TeamA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/TeamA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Team"/>
+        <rdfs:comment>One of the football teams.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/TeamB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/TeamB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Team"/>
+        <rdfs:comment>Another football team.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/TruthSeeker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/TruthSeeker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Whistleblower"/>
+        <ontologies:providedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/Emails"/>
+        <ontologies:providedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/LeakedDocuments"/>
+        <rdfs:comment>A user who claims to have uncovered evidence of referee corruption.</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
