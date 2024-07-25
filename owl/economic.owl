@@ -1,312 +1,322 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society"
+<rdf:RDF xmlns="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society/"
+     xml:base="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society">
-    <Prefix name="" IRI="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society/"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Declaration>
-        <Class IRI="#Claim"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ConspiracyTheory"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#EconomicEntity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Event"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Evidence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SocialIssue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Source"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEvent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasInfluence"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSource"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#involvesPerson"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#makesClaim"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#refutesTheory"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#relatedTo"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#supportsTheory"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Claim1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Claim2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Evidence1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Evidence2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GlobalFinancialCrisis2008"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RothschildBankingInstitutions"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Sarah"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source4"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Source5"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="#Claim"/>
-        <NamedIndividual IRI="#Claim1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Claim"/>
-        <NamedIndividual IRI="#Claim2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Evidence"/>
-        <NamedIndividual IRI="#Evidence1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Evidence"/>
-        <NamedIndividual IRI="#Evidence2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Event"/>
-        <NamedIndividual IRI="#GlobalFinancialCrisis2008"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#EconomicEntity"/>
-        <NamedIndividual IRI="#RothschildBankingInstitutions"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <ObjectIntersectionOf>
-            <Class IRI="#EconomicEntity"/>
-            <Class IRI="#Person"/>
-        </ObjectIntersectionOf>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ConspiracyTheory"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Person"/>
-        <NamedIndividual IRI="#Sarah"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source4"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Source"/>
-        <NamedIndividual IRI="#Source5"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSource"/>
-        <NamedIndividual IRI="#Claim1"/>
-        <NamedIndividual IRI="#Source1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSource"/>
-        <NamedIndividual IRI="#Claim1"/>
-        <NamedIndividual IRI="#Source2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSource"/>
-        <NamedIndividual IRI="#Claim2"/>
-        <NamedIndividual IRI="#Source3"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSource"/>
-        <NamedIndividual IRI="#Evidence1"/>
-        <NamedIndividual IRI="#Source4"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#involvesPerson"/>
-        <NamedIndividual IRI="#Evidence1"/>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#supportsTheory"/>
-        <NamedIndividual IRI="#Evidence1"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSource"/>
-        <NamedIndividual IRI="#Evidence2"/>
-        <NamedIndividual IRI="#Source5"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#involvesPerson"/>
-        <NamedIndividual IRI="#Evidence2"/>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#refutesTheory"/>
-        <NamedIndividual IRI="#Evidence2"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#relatedTo"/>
-        <NamedIndividual IRI="#RothschildFamily"/>
-        <NamedIndividual IRI="#RothschildBankingInstitutions"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasEvent"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-        <NamedIndividual IRI="#GlobalFinancialCrisis2008"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasInfluence"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#makesClaim"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-        <NamedIndividual IRI="#Claim1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#makesClaim"/>
-        <NamedIndividual IRI="#Rothschild_Banking_Conspiracy"/>
-        <NamedIndividual IRI="#Claim2"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#involvesPerson"/>
-        <NamedIndividual IRI="#Sarah"/>
-        <NamedIndividual IRI="#RothschildFamily"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#ConspiracyTheory"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasInfluence"/>
-        <Class IRI="#ConspiracyTheory"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSource"/>
-        <ObjectUnionOf>
-            <Class IRI="#Claim"/>
-            <Class IRI="#Evidence"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#involvesPerson"/>
-        <ObjectUnionOf>
-            <Class IRI="#ConspiracyTheory"/>
-            <Class IRI="#Evidence"/>
-            <Class IRI="#Person"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#makesClaim"/>
-        <Class IRI="#ConspiracyTheory"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#refutesTheory"/>
-        <Class IRI="#Evidence"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#relatedTo"/>
-        <Class IRI="#SocialIssue"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#supportsTheory"/>
-        <Class IRI="#Evidence"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#Event"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasInfluence"/>
-        <ObjectUnionOf>
-            <Class IRI="#EconomicEntity"/>
-            <Class IRI="#SocialIssue"/>
-        </ObjectUnionOf>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasSource"/>
-        <Class IRI="#Source"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#makesClaim"/>
-        <Class IRI="#Claim"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#refutesTheory"/>
-        <Class IRI="#ConspiracyTheory"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#relatedTo"/>
-        <Class IRI="#EconomicEntity"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#supportsTheory"/>
-        <Class IRI="#ConspiracyTheory"/>
-    </ObjectPropertyRange>
-</Ontology>
+     xmlns:economics-and-society="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasInfluence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasInfluence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialIssue"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasSource">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#involvesPerson -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#involvesPerson">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#makesClaim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#makesClaim">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#refutesTheory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#refutesTheory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#relatedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#relatedTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialIssue"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#supportsTheory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#supportsTheory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialIssue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialIssue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim"/>
+        <economics-and-society:hasSource rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source1"/>
+        <economics-and-society:hasSource rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim"/>
+        <economics-and-society:hasSource rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+        <economics-and-society:hasSource rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source4"/>
+        <economics-and-society:involvesPerson rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily"/>
+        <economics-and-society:supportsTheory rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Rothschild_Banking_Conspiracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Evidence"/>
+        <economics-and-society:hasSource rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source5"/>
+        <economics-and-society:involvesPerson rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily"/>
+        <economics-and-society:refutesTheory rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Rothschild_Banking_Conspiracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#GlobalFinancialCrisis2008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#GlobalFinancialCrisis2008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildBankingInstitutions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildBankingInstitutions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEntity"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <economics-and-society:relatedTo rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildBankingInstitutions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Rothschild_Banking_Conspiracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Rothschild_Banking_Conspiracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#ConspiracyTheory"/>
+        <economics-and-society:hasEvent rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#GlobalFinancialCrisis2008"/>
+        <economics-and-society:hasInfluence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily"/>
+        <economics-and-society:makesClaim rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim1"/>
+        <economics-and-society:makesClaim rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Claim2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Sarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Sarah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+        <economics-and-society:involvesPerson rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#RothschildFamily"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Source"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
 
 
 
