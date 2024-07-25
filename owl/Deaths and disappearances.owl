@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy/"
+     xml:base="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:diana_conspiracy="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy">
+        <terms:created>24/07/2024</terms:created>
+        <terms:creator>Ekaterina Krasnova</terms:creator>
+        <terms:description xml:lang="en">This category explores the belief that certain individuals&apos; deaths or disappearances were not accidental or natural but were instead the result of covert actions by powerful entities.</terms:description>
+        <terms:title xml:lang="en">Deaths and disappearances</terms:title>
+        <diana_conspiracy:user_story xml:lang="en">Jane, a middle-aged woman from England, is fascinated by the British Royal Family and especially adores Princess Diana. One day, on an online forum about Diana conspiracy theories, she encounters a post from “LilyRose99,” an eyewitness to the events leading up to Diana’s tragic accident.
+LilyRose99 describes a suspicious black car following Diana’s Mercedes on the night of August 31, 1997, and believes it was part of a covert operation to cause the crash. Intrigued, Jane contacts LilyRose99, who shares a blurry photo of the black car speeding away from the scene.
+Determined to uncover the truth, Jane dives into her investigation, finding inconsistencies in official reports and other witnesses who saw the same black car. She shares her findings on the forum, rallying a community of conspiracy theorists to pressure authorities to reopen the investigation.
+While their efforts do not lead to an official case reopening, they keep the conversation and memory of Princess Diana alive, giving Jane a sense of accomplishment for challenging the official narrative.</diana_conspiracy:user_story>
+        <rdfs:comment xml:lang="en">This ontology models concepts and relationships associated with conspiracy theories regarding deaths and disappearances. It is particularly focused on high-profile cases such as the death of Princess Diana.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#user_story -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#user_story"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#describedEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#describedEvent">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Eyewitness"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:comment xml:lang="en">Connects an eyewitness to the event they described.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#discoveredEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#discoveredEvidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <rdfs:comment xml:lang="en">Connects a person to the evidence they discovered.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#followedVehicle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#followedVehicle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle"/>
+        <rdfs:comment xml:lang="en">Connects a vehicle to another vehicle it was following.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#performedAction -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#performedAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action"/>
+        <rdfs:comment xml:lang="en">Connects a person to an action they took.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#pressuredAuthorities -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#pressuredAuthorities">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Community"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities"/>
+        <rdfs:comment xml:lang="en">Connects a community to the authorities they pressured.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#relatedReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#relatedReport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report"/>
+        <rdfs:comment xml:lang="en">Connects evidence to the report it is related to.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#reopenedInvestigation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#reopenedInvestigation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation"/>
+        <rdfs:comment xml:lang="en">Connects authorities to the investigation they reopened.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#actionPurpose -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#actionPurpose">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Describes the purpose of an action.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#eventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#eventDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment xml:lang="en">Specifies the date on which an event occurred.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#evidenceType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#evidenceType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Specifies the type of evidence.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action">
+        <rdfs:comment xml:lang="en">Represents any activity or measure taken by individuals or groups in relation to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities">
+        <rdfs:comment xml:lang="en">Represents official bodies or institutions responsible for investigation and enforcement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Community">
+        <rdfs:comment xml:lang="en">Represents a group of people who share a common interest or belief in the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event">
+        <rdfs:comment xml:lang="en">Represents a specific occurrence or happening related to the conspiracy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence">
+        <rdfs:comment xml:lang="en">Represents any piece of information or material that suggests inconsistencies or supports the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Eyewitness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Eyewitness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
+        <rdfs:comment xml:lang="en">Represents a person who has directly observed an event relevant to the conspiracy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation">
+        <rdfs:comment xml:lang="en">Represents the process of inquiring or examining the details related to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person">
+        <rdfs:comment xml:lang="en">Represents an individual involved in the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report">
+        <rdfs:comment xml:lang="en">Represents official documents or accounts regarding the events.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle">
+        <rdfs:comment xml:lang="en">Represents a vehicle involved in the events related to the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarFollowing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarFollowing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <diana_conspiracy:eventDate>1997-08-31</diana_conspiracy:eventDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarPhoto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarPhoto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <diana_conspiracy:relatedReport rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ForumPost"/>
+        <diana_conspiracy:evidenceType>Photo</diana_conspiracy:evidenceType>
+        <rdfs:comment xml:lang="en">A blurry photo of the suspicious black car.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BritishPolice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BritishPolice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities"/>
+        <diana_conspiracy:reopenedInvestigation rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ReopenedInvestigationAttempt"/>
+        <rdfs:comment xml:lang="en">The official body that handled Diana’s accident investigation.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianaConspiracyCommunity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianaConspiracyCommunity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Community"/>
+        <diana_conspiracy:pressuredAuthorities rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BritishPolice"/>
+        <rdfs:comment xml:lang="en">The group of conspiracy theorists rallying around the case.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianasAccident -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianasAccident">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <diana_conspiracy:eventDate>1997-08-31</diana_conspiracy:eventDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianasMercedes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianasMercedes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ForumPost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ForumPost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report"/>
+        <rdfs:comment xml:lang="en">Post from LilyRose99 describing the events and the black car.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InvestigateDianaCase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InvestigateDianaCase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action"/>
+        <diana_conspiracy:actionPurpose>Investigating inconsistencies and advocating for a reopened case.</diana_conspiracy:actionPurpose>
+        <rdfs:comment xml:lang="en">Investigating inconsistencies and advocating for a reopened case.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Jane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Jane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
+        <diana_conspiracy:discoveredEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarPhoto"/>
+        <diana_conspiracy:discoveredEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReports"/>
+        <diana_conspiracy:performedAction rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InvestigateDianaCase"/>
+        <diana_conspiracy:performedAction rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#PressureAuthorities"/>
+        <rdfs:comment xml:lang="en">A middle-aged woman from England, interested in Princess Diana and conspiracy theories.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#LilyRose99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#LilyRose99">
+        <rdf:type>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Eyewitness"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdf:type>
+        <diana_conspiracy:describedEvent rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#BlackCarFollowing"/>
+        <rdfs:comment xml:lang="en">An eyewitness to the events leading up to Diana&apos;s accident who posted on the forum.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReport1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReport1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report"/>
+        <rdfs:comment xml:lang="en">An official document related to the accident investigation.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <diana_conspiracy:relatedReport rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#OfficialReport1"/>
+        <diana_conspiracy:evidenceType>Report</diana_conspiracy:evidenceType>
+        <rdfs:comment xml:lang="en">Inconsistencies in official reports related to Diana’s accident.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#PressureAuthorities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#PressureAuthorities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action"/>
+        <diana_conspiracy:actionPurpose>Rallying community support to pressure authorities for reopening the investigation.</diana_conspiracy:actionPurpose>
+        <rdfs:comment xml:lang="en">Rallying community support to pressure authorities for reopening the investigation.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ReopenedInvestigationAttempt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ReopenedInvestigationAttempt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation"/>
+        <rdfs:comment xml:lang="en">Attempt by the community to reopen the investigation into Diana&apos;s death.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SuspiciousBlackCar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SuspiciousBlackCar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Vehicle"/>
+        <diana_conspiracy:followedVehicle rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DianasMercedes"/>
+        <rdfs:comment xml:lang="en">The black car that was reported to be following Diana&apos;s car.</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

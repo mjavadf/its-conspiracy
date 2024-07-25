@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy/"
+     xml:base="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:illuminati_conspiracy="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy">
+        <terms:created>24/07/2024</terms:created>
+        <terms:creator>Ekaterina Krasnova</terms:creator>
+        <terms:description xml:lang="en">This category uncovers the belief that hidden forces and powerful entities manipulate government actions, political events, and conflicts, casting doubt on official narratives.</terms:description>
+        <terms:title xml:lang="en">Government, politics and conflict</terms:title>
+        <illuminati_conspiracy:user_story xml:lang="en">Jordan, a 32-year-old graphic designer from Chicago, has long been fascinated by secret societies. One evening, while exploring a conspiracy theory forum, Jordan discovers a thread about the Illuminati, alleged to control global events from the shadows.
+A user named “MysticTruths” claims the Illuminati orchestrates major events to create a New World Order. They provide supposed evidence, including leaked documents and coded messages, alleging that the Illuminati manipulated the 2008 financial crisis to strengthen their grip on the global economy and influenced international agreements like the Paris Climate Accord to advance their agenda.
+Intrigued, Jordan investigates further, cross-referencing the claims with news reports and historical events. They compile their findings into a detailed post with infographics showing the Illuminati&apos;s alleged role in economic crises and political decisions.
+Jordan’s post attracts significant attention, sparking discussions and debates on the forum. While some dismiss the claims, others are convinced and contribute additional theories. Although Jordan doesn’t uncover concrete proof, they enjoy the intellectual challenge and feel part of a larger quest for hidden truths, continuing their exploration into the mysteries of the Illuminati.</illuminati_conspiracy:user_story>
+        <rdfs:comment xml:lang="en">This ontology models concepts and relationships related to conspiracy theories, specifically focusing on government politics, conflict, and the Illuminati.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#user_story -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#user_story"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#claimedEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#claimedEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event"/>
+        <rdfs:comment>Connects a user to the event they claim the Illuminati orchestrated.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#conductedInvestigation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#conductedInvestigation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Investigation"/>
+        <rdfs:comment>Connects a person to the investigation they conducted.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#containsDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#containsDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Document"/>
+        <rdfs:comment>Connects a report to the documents it contains.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#discussedTheory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#discussedTheory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Discussion"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Theory"/>
+        <rdfs:comment>Connects a discussion to the theory it revolves around.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#investigatedEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#investigatedEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event"/>
+        <rdfs:comment>Connects a person to the event they investigated in relation to the conspiracy.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#producedReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#producedReport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Investigation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+        <rdfs:comment>Connects an investigation to the report it produced.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#providedEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#providedEvidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+        <rdfs:comment>Connects a user to the evidence they provided to support their claims.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#referencedEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#referencedEvidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+        <rdfs:comment>Connects a report to the evidence it references.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#relatedClaim -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#relatedClaim">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Claim"/>
+        <rdfs:comment>Connects evidence to the claim it supports.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#sparkedDiscussion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#sparkedDiscussion">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Discussion"/>
+        <rdfs:comment>Connects a report to the discussion it sparked.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Claim -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Claim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Discussion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Discussion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Investigation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Investigation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Theory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Theory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#User">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ClimateAccordDocuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ClimateAccordDocuments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Document"/>
+        <rdfs:comment>Documents related to the Paris Climate Accord.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#CodedMessages -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#CodedMessages">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+        <illuminati_conspiracy:relatedClaim rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiNewWorldOrder"/>
+        <rdfs:comment>Coded messages alleged to be linked to Illuminati activities.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#FinancialCrisisDocuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#FinancialCrisisDocuments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Document"/>
+        <rdfs:comment>Documents related to the 2008 financial crisis.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ForumThread -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ForumThread">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Discussion"/>
+        <illuminati_conspiracy:discussedTheory rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiTheory"/>
+        <rdfs:comment>The forum thread where Jordan and others discuss the Illuminati.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiNewWorldOrder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiNewWorldOrder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Claim"/>
+        <rdfs:comment>The claim that the Illuminati orchestrates events to create a New World Order.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiTheory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Theory"/>
+        <rdfs:comment>The broader theory that the Illuminati controls global events.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Jordan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Jordan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Person"/>
+        <illuminati_conspiracy:conductedInvestigation rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanInvestigation"/>
+        <illuminati_conspiracy:investigatedEvent rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ParisClimateAccordInfluence"/>
+        <illuminati_conspiracy:investigatedEvent rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#2008FinancialCrisis"/>
+        <rdfs:comment>A 32-year-old graphic designer from Chicago who investigates the Illuminati conspiracy.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanInvestigation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanInvestigation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Investigation"/>
+        <illuminati_conspiracy:producedReport rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanPost"/>
+        <rdfs:comment>The investigation conducted by Jordan into the Illuminati conspiracy.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanPost -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#JordanPost">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Report"/>
+        <illuminati_conspiracy:containsDocument rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ClimateAccordDocuments"/>
+        <illuminati_conspiracy:containsDocument rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#FinancialCrisisDocuments"/>
+        <illuminati_conspiracy:referencedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#CodedMessages"/>
+        <illuminati_conspiracy:referencedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#LeakedDocuments"/>
+        <illuminati_conspiracy:sparkedDiscussion rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ForumThread"/>
+        <rdfs:comment>The detailed post compiled by Jordan with infographics about the Illuminati’s alleged role in economic and political events.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#LeakedDocuments -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#LeakedDocuments">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Evidence"/>
+        <illuminati_conspiracy:relatedClaim rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#IlluminatiNewWorldOrder"/>
+        <rdfs:comment>Leaked documents suggesting Illuminati manipulation of the 2008 financial crisis.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#MysticTruths -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#MysticTruths">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#User"/>
+        <illuminati_conspiracy:claimedEvent rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ParisClimateAccordInfluence"/>
+        <illuminati_conspiracy:claimedEvent rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#2008FinancialCrisis"/>
+        <illuminati_conspiracy:providedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#CodedMessages"/>
+        <illuminati_conspiracy:providedEvidence rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#LeakedDocuments"/>
+        <rdfs:comment>An online user who claims that the Illuminati orchestrates major events.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ParisClimateAccordInfluence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#ParisClimateAccordInfluence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event"/>
+        <rdfs:comment>The influence of the Illuminati on the Paris Climate Accord.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#2008FinancialCrisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#2008FinancialCrisis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/illuminati_conspiracy#Event"/>
+        <rdfs:comment>The 2008 financial crisis, allegedly manipulated by the Illuminati.</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
