@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/"
+     xml:base="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CognitiveBiasOntologies="https://github.com/corrado877/CognitiveBiasOntologies/blob/main/CognitiveBiasOntologies#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/describesPhenomenon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/describesPhenomenon">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Phenomenon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasEvidence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasEvidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+        <rdfs:comment>Links a ConspiracyTheory to the types of evidence supporting it.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/hasPublication">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/isAttributedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/isAttributedTo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/isSupportedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/isSupportedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <rdfs:comment>Links an Argument to the ConspiracyTheory it supports.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/publishedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/publishedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Publication"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/relatedToEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/relatedToEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/corrado877/CognitiveBiasOntologies/blob/main/CognitiveBiasOntologies#supports -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/corrado877/CognitiveBiasOntologies/blob/main/CognitiveBiasOntologies#supports"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor">
+        <rdfs:comment>Represents individuals or organizations involved in or affected by the conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument">
+        <rdfs:comment>Represents specific arguments or claims made in support of or against a conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory">
+        <rdfs:comment>Represents different outer space conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event">
+        <rdfs:comment>Represents significant events related to the conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence">
+        <rdfs:comment>Represents various types of evidence related to conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Organization">
+        <rdfs:comment>Represents organizations involved in the space exploration or related fields.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Phenomenon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Phenomenon">
+        <rdfs:comment>Represents phenomena that are often discussed in the context of conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Publication">
+        <rdfs:comment>Represents publications that discuss or reference conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Alex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Alex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor"/>
+        <hasEvidence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/FilmQualityAnomalies"/>
+        <hasEvidence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/LightingInconsistencies"/>
+        <CognitiveBiasOntologies:supports rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/MoonLandingHoax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Landing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Landing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Photos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Photos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/FilmQualityAnomalies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/FilmQualityAnomalies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Argument"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+        <isAttributedTo rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Alex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/LightingInconsistencies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/LightingInconsistencies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Evidence"/>
+        <isAttributedTo rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Alex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/MoonLandingHoax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/MoonLandingHoax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/ConspiracyTheory"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Alex"/>
+        <hasActor rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NASAEmployees"/>
+        <hasEvidence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Photos"/>
+        <hasEvidence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/FilmQualityAnomalies"/>
+        <hasEvidence rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/LightingInconsistencies"/>
+        <hasPublication rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NewsSegment"/>
+        <relatedToEvent rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Apollo11Landing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NASAEmployees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NASAEmployees">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NewsSegment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/NewsSegment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Publication"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
