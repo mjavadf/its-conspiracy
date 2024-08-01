@@ -66,6 +66,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#Event"/>
+        <rdfs:comment>provides textual descriptions of events</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasParticipant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasTimeInterval -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasTimeInterval">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#Event"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasWitness -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasWitness">
@@ -129,6 +155,35 @@
         <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#Event"/>
         <rdfs:comment>Connects testimony to the event it describes.</rdfs:comment>
     </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasEndDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasEndDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasStartDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#hasStartDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -229,6 +284,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#Testimony">
         <rdfs:comment>Represents the statements and accounts given by witnesses.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/aviation#TimeInterval -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/aviation#TimeInterval"/>
     
 
 
