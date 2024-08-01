@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology/"
-     xml:base="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology/"
+<rdf:RDF xmlns="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1/"
+     xml:base="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:EmilyRoberts1="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#"
-     xmlns:science_and_technology="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology"/>
+     xmlns:EmilyRoberts1="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1"/>
     
 
 
@@ -23,122 +22,140 @@
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#analyzedBy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#analyzedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#analyzedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#analyzedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#VideoOrPhoto"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#VideoOrPhoto"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
         <rdfs:comment>Links videos or photos to the researcher who analyzed them.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#challengesSphericalModel -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#challengesSphericalModel -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#challengesSphericalModel">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#challengesSphericalModel">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation"/>
         <rdfs:comment>Indicates whether an observation challenges the spherical earth model.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#collectedBy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#collectedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#collectedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#collectedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
         <rdfs:comment>Relates evidence to the researcher who collected it.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#comparedTo -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#comparedTo -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#comparedTo">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#comparedTo">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#GeospatialData"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#GeospatialData"/>
         <rdfs:comment>Relates historical documents/maps to modern geospatial data for comparison.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#conductedBy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#conductedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#conductedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#conductedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interview"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
         <rdfs:comment>Relates an interview to the researcher who conducted it.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#description -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#description -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#description">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation"/>
         <rdfs:comment>Provides a description of the observation, discrepancy, or evidence.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#providesObservation -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#hasDescription -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#providesObservation">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthClaim"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#providesObservation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#providesObservation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interviewee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation"/>
         <rdfs:comment>Links interviews to the observations they provide.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#publishedBy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#publishedBy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#publishedBy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#publishedBy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Publication"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Publication"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
         <rdfs:comment>Indicates the researcher who published a report or article.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#relatedToTheory -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#relatedToTheory -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#relatedToTheory">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#relatedToTheory">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#FlatEarthTheory"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthTheory"/>
         <rdfs:comment>Indicates that a discrepancy relates to the flat earth theory.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#showsDiscrepancy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#showsDiscrepancy -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#showsDiscrepancy">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#showsDiscrepancy">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy"/>
         <rdfs:comment>Indicates that a historical document or map shows a discrepancy.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#source -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#source -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#source">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#source">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Conference"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Conference"/>
         <rdfs:comment>Indicates the source of the evidence, such as a conference.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#supports">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthClaim"/>
     </owl:ObjectProperty>
     
 
@@ -154,134 +171,156 @@
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Concept -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Concept -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Concept">
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Concept">
         <rdfs:comment>Represents abstract ideas or theories</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Conference -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Conference -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Conference">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Conference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Event"/>
         <rdfs:comment>Represents events where flat earth theories are presented and discussed.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents differences found between historical documents/maps and modern data.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Event -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Event -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Event"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Event"/>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
-    
-
-
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#FlatEarthTheory -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#FlatEarthTheory">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Concept"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#GeospatialData -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthClaim -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#GeospatialData">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthClaim">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Concept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#GeospatialData -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#GeospatialData">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents modern geospatial data used for comparison.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents historical documents or maps examined during the investigation.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interview -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents interviews conducted by the researcher.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interviewee -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interviewee -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interviewee">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Person"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interviewee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
         <rdfs:comment>Represents individuals interviewed.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Description"/>
         <rdfs:comment>Represents specific observations made during interviews.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Person -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Person -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Person"/>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Publication -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Publication -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Publication">
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Publication">
         <rdfs:comment>Represents reports, articles, or presentations published by the researcher</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Person"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Person"/>
         <rdfs:comment>Represents individuals conducting research.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#SpaceMission -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Situation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#SpaceMission">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#SpaceMission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#SpaceMission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents space missions whose images or data are examined.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#VideoOrPhoto -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#VideoOrPhoto -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#VideoOrPhoto">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#VideoOrPhoto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
         <rdfs:comment>Represents videos or photographs analyzed for evidence.</rdfs:comment>
     </owl:Class>
     
@@ -298,88 +337,87 @@
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#DiscrepancyA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#DiscrepancyA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#DiscrepancyA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#DiscrepancyA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#EmilyRoberts -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#EmilyRoberts -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#EmilyRoberts">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Researcher"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#EmilyRoberts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Researcher"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#FlatEarthConference2024 -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthConference2024 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#FlatEarthConference2024">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Conference"/>
-        <science_and_technology:source rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PhotoEvidenceA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#FlatEarthConference2024">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Conference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalMapA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalMapA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalMapA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap"/>
-        <science_and_technology:showsDiscrepancy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#DiscrepancyA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalMapA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap"/>
+        <EmilyRoberts1:showsDiscrepancy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#DiscrepancyA"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#ModernGeospatialData -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#ModernGeospatialData -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#ModernGeospatialData">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#GeospatialData"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#ModernGeospatialData">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#GeospatialData"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#ObservationA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#ObservationA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#ObservationA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#ObservationA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PhotoEvidenceA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PhotoEvidenceA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PhotoEvidenceA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#VideoOrPhoto"/>
-        <science_and_technology:analyzedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#EmilyRoberts"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PhotoEvidenceA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#VideoOrPhoto"/>
+        <EmilyRoberts1:analyzedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#EmilyRoberts"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PilotA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PilotA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PilotA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interviewee"/>
-        <science_and_technology:providesObservation rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#ObservationA"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PilotA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interviewee"/>
+        <EmilyRoberts1:providesObservation rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#ObservationA"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PilotInterview -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PilotInterview -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PilotInterview">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview"/>
-        <science_and_technology:conductedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#EmilyRoberts"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PilotInterview">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interview"/>
+        <EmilyRoberts1:conductedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#EmilyRoberts"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PublicationA -->
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PublicationA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#PublicationA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Publication"/>
-        <science_and_technology:publishedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#EmilyRoberts"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#PublicationA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Publication"/>
+        <EmilyRoberts1:publishedBy rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#EmilyRoberts"/>
     </owl:NamedIndividual>
     
 
@@ -395,23 +433,23 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Concept"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Event"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Evidence"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Person"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Publication"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Concept"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Evidence"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Publication"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Discrepancy"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#GeospatialData"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#HistoricalDocumentOrMap"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Interview"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#Observation"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#SpaceMission"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/science_and_technology#VideoOrPhoto"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Discrepancy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#GeospatialData"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#HistoricalDocumentOrMap"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Interview"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#Observation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#SpaceMission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/6/EmilyRoberts1#VideoOrPhoto"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
