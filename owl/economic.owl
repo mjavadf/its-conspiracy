@@ -47,6 +47,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasParticipant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasResult -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasResult">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasSource -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasSource">
@@ -75,6 +101,15 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
     </owl:ObjectProperty>
     
 
@@ -118,6 +153,26 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasTimeStamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#hasTimeStamp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -144,6 +199,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#EconomicEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
@@ -156,9 +219,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Location"/>
+    
+
+
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#PoliticalEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#PoliticalEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Result"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#SocialEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Event"/>
+    </owl:Class>
     
 
 

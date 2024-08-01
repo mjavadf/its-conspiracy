@@ -66,15 +66,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#associatedWith">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ConspiracyTheory"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#EthnicGroup"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#RacialGroup"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ReligiousGroup"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Group"/>
     </owl:ObjectProperty>
     
 
@@ -92,7 +84,7 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#hasImpact">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ConspiracyTheory"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialAction"/>
     </owl:ObjectProperty>
     
 
@@ -148,19 +140,31 @@
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#ConspiracyTheory -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ConspiracyTheory"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ConspiracyTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialEntity"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#EthnicGroup -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#EthnicGroup"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#EthnicGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Group"/>
     
 
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#Impact -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Impact"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialAction"/>
+    </owl:Class>
     
 
 
@@ -174,13 +178,29 @@
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#RacialGroup -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#RacialGroup"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#RacialGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Group"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#ReligiousGroup -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ReligiousGroup"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#ReligiousGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#SocialAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#SocialEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialEntity"/>
     
 
 
@@ -194,13 +214,17 @@
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#Source -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Source"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialEntity"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race&#45;&#45;religion#VerificationMethod -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#VerificationMethod"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#VerificationMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/ethnicity-race--religion#SocialAction"/>
+    </owl:Class>
     
 
 

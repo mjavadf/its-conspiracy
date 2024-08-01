@@ -22,6 +22,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasParticipant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasResult -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasResult">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#isPartOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/describesPhenomenon -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/describesPhenomenon">
@@ -118,11 +154,73 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasTimeStamp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#hasTimeStamp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/economics-and-society#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#DiscoveryEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#DiscoveryEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#MediaEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#MediaEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Result -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#Result"/>
+    
+
+
+    <!-- http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#SpaceExplorationEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space#SpaceExplorationEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/javad/ontologies/2024/6/outer-space/Event"/>
+    </owl:Class>
     
 
 
