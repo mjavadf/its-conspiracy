@@ -94,8 +94,10 @@ While their efforts do not lead to an official case reopening, they keep the con
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#describedEvent -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#describedEvent">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#isSettingFor"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Eyewitness"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Narrative"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
         <rdfs:comment xml:lang="en">Connects an eyewitness to the event they described.</rdfs:comment>
     </owl:ObjectProperty>
@@ -123,12 +125,103 @@ While their efforts do not lead to an official case reopening, they keep the con
     
 
 
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasAuthor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasAuthor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Narrative"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasInformationObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasInformationObject">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InformationObject"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasParticipant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasSetting -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasSetting">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#isSettingFor"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasSpatioTemporalExtent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasSpatioTemporalExtent">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SpatioTemporalExtent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#involvesEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#involvesEvent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#isSettingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#isSettingFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#performedAction -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#performedAction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#providesParticipantRole"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action"/>
         <rdfs:comment xml:lang="en">Connects a person to an action they took.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#playsRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#playsRole">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Role"/>
     </owl:ObjectProperty>
     
 
@@ -139,6 +232,23 @@ While their efforts do not lead to an official case reopening, they keep the con
         <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Community"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities"/>
         <rdfs:comment xml:lang="en">Connects a community to the authorities they pressured.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#providedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#providedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#providesParticipantRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#providesParticipantRole">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ParticipantRole"/>
     </owl:ObjectProperty>
     
 
@@ -159,6 +269,30 @@ While their efforts do not lead to an official case reopening, they keep the con
         <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Authorities"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation"/>
         <rdfs:comment xml:lang="en">Connects authorities to the investigation they reopened.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#subEventOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#subEventOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#subSpatioTemporalExtentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#subSpatioTemporalExtentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#supportsTheory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#supportsTheory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ConspiracyTheory"/>
     </owl:ObjectProperty>
     
 
@@ -189,7 +323,7 @@ While their efforts do not lead to an official case reopening, they keep the con
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#eventDate">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SpatioTemporalExtent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">Specifies the date on which an event occurred.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -207,6 +341,12 @@ While their efforts do not lead to an official case reopening, they keep the con
     
 
 
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#hasDate"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -221,8 +361,15 @@ While their efforts do not lead to an official case reopening, they keep the con
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
         <rdfs:comment xml:lang="en">Represents any activity or measure taken by individuals or groups in relation to the conspiracy theory.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
     
 
 
@@ -242,6 +389,22 @@ While their efforts do not lead to an official case reopening, they keep the con
     
 
 
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ConspiracyTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ConspiracyTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DeathAndDisappearance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#DeathAndDisappearance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Event">
@@ -253,6 +416,7 @@ While their efforts do not lead to an official case reopening, they keep the con
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Evidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InformationObject"/>
         <rdfs:comment xml:lang="en">Represents any piece of information or material that suggests inconsistencies or supports the conspiracy theory.</rdfs:comment>
     </owl:Class>
     
@@ -267,6 +431,12 @@ While their efforts do not lead to an official case reopening, they keep the con
     
 
 
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InformationObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#InformationObject"/>
+    
+
+
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Investigation">
@@ -275,9 +445,28 @@ While their efforts do not lead to an official case reopening, they keep the con
     
 
 
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Narrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Narrative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ParticipantRole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#ParticipantRole"/>
+    
+
+
     <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Agent"/>
         <rdfs:comment xml:lang="en">Represents an individual involved in the conspiracy theory.</rdfs:comment>
     </owl:Class>
     
@@ -288,6 +477,24 @@ While their efforts do not lead to an official case reopening, they keep the con
     <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Report">
         <rdfs:comment xml:lang="en">Represents official documents or accounts regarding the events.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SpatioTemporalExtent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/katya/ontologies/2024/diana_conspiracy#SpatioTemporalExtent"/>
     
 
 
