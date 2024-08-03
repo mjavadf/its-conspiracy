@@ -1,0 +1,1674 @@
+[
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "5G and health risks"
+        },
+        "lens": "health impact",
+        "cut": "technology as a harmful agent",
+        "background": "Emergence of 5G technology and its rapid deployment have raised concerns among certain groups about potential health risks, despite scientific consensus on its safety.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "5G technology is causing mysterious illnesses; Evidence that 5G radiation is linked to cancer; The government is hiding the truth",
+        "graphicalFeatures": "The video features a dramatic, dark-colored background with text overlayed in red and yellow. There are images of 5G towers with ominous red glows and concerned people."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Bill Gates and vaccine conspiracies"
+        },
+        "lens": "government control",
+        "cut": "vaccination as a means of population control",
+        "background": "Bill Gates has been a prominent figure in global vaccination efforts through his foundation. This has led to theories that link vaccines with population control agendas.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Blog post",
+        "text": "Bill Gates wants to reduce the global population; Vaccines are a cover for a global control scheme; The real agenda behind vaccination programs",
+        "graphicalFeatures": "Includes images of Bill Gates with dollar signs and global maps showing decreasing population figures. Text is bold and alarmist."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Antifa"
+        },
+        "lens": "violent extremism",
+        "cut": "Antifa as a dangerous, violent group",
+        "background": "Antifa, short for anti-fascist, is a loosely organized group known for opposing far-right ideologies. The group is often portrayed as violent by its critics.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Meme",
+        "text": "Antifa is a terrorist organization; They use violence to achieve their goals; They are a threat to public safety",
+        "graphicalFeatures": "The meme includes a black-and-red color scheme, with images of masked individuals in confrontational poses. Text is in a bold, urgent font."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Moon landing hoax"
+        },
+        "lens": "scientific deception",
+        "cut": "space agencies are deceiving the public",
+        "background": "The moon landing hoax theory suggests that the 1969 Apollo moon landing was staged by NASA. This theory persists despite overwhelming evidence to the contrary.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Documentary",
+        "text": "The moon landing was staged; NASA's evidence is fabricated; Interviews with experts who claim the moon landing was faked",
+        "graphicalFeatures": "The documentary features grainy, retro footage, and dramatic reenactments of alleged hoax scenarios. The color scheme is dark with a focus on shadows and contrasts."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "JFK assassination theories"
+        },
+        "lens": "government cover-up",
+        "cut": "The official story is a fabrication",
+        "background": "The assassination of President John F. Kennedy in 1963 has spawned numerous conspiracy theories about the true nature of his murder and the involvement of various entities.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Podcast",
+        "text": "The official account of JFK's assassination is false; Evidence points to a larger conspiracy; Analysis of new documents and witness statements",
+        "graphicalFeatures": "The podcast cover features a somber image of JFK with shadowy figures in the background. Text is minimal, with a focus on impactful visuals."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "QAnon"
+        },
+        "lens": "deep state infiltration",
+        "cut": "QAnon as a truth-seeking movement",
+        "background": "QAnon is a far-right conspiracy theory alleging that a secret cabal controls world events. It has gained significant traction through social media.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "strong"
+        },
+        "template": "Tweet",
+        "text": "QAnon exposes the deep state; Follow Q for the real truth; Evidence of government corruption is mounting",
+        "graphicalFeatures": "Tweets often include cryptic hashtags, symbolic imagery, and screenshots of alleged evidence. The design is simple but often incorporates conspiracy-related symbols."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Chemtrails"
+        },
+        "lens": "environmental manipulation",
+        "cut": "chemtrails as a tool for weather control",
+        "background": "Chemtrails conspiracy theories suggest that the trails left by aircraft contain chemicals meant for geoengineering or other secret purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "Chemtrails vs. contrails; Evidence of chemical components in trails; Impact on climate and human health",
+        "graphicalFeatures": "The infographic features a clear, educational layout with charts comparing chemtrails and contrails, images of aircraft, and chemical formulas."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Elon Musk and Mars colonization"
+        },
+        "lens": "technological utopia",
+        "cut": "Mars colonization as humanity's salvation",
+        "background": "Elon Musk's vision for colonizing Mars is presented as a solution to Earth's problems, including overpopulation and resource depletion.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "TED Talk",
+        "text": "Mars colonization is our next step; Elon Musk's plan for a multi-planetary future; The benefits of living on Mars",
+        "graphicalFeatures": "The TED Talk features futuristic visuals of Mars, with animations showing space travel and colony life. The background is bright and inspiring."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Freemasons"
+        },
+        "lens": "secret societies",
+        "cut": "Freemasons as orchestrators of global events",
+        "background": "Freemasons are a fraternal organization often linked to theories about their influence over world events and politics.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "Freemasons control world governments; Historical influence of Freemasonry; Analysis of secret symbols and rituals",
+        "graphicalFeatures": "The article includes symbols associated with Freemasonry, historical photos, and illustrations of secret meetings. The design is formal and detailed."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Vaccine ingredients"
+        },
+        "lens": "toxic substances",
+        "cut": "vaccines as dangerous due to their components",
+        "background": "Concerns about vaccine ingredients often center around claims of harmful substances being included, despite regulatory oversight and safety testing.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Social media post",
+        "text": "Vaccine ingredients include toxic substances; The truth about what’s in vaccines; Why you should be worried about vaccine safety",
+        "graphicalFeatures": "The post features alarmist graphics, such as images of syringes and chemical symbols, with bold text and cautionary colors like red and yellow."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "George Soros"
+        },
+        "lens": "financial manipulation",
+        "cut": "Soros as a puppet master behind political events",
+        "background": "George Soros, a prominent investor and philanthropist, is frequently accused by conspiracy theorists of manipulating global politics through financial means.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "George Soros controls global politics; Evidence of his influence on elections; The hidden agenda of his philanthropic efforts",
+        "graphicalFeatures": "The video includes dramatic music, fast-paced editing, and images of Soros with manipulated charts showing financial graphs and political events."
+    },
+    {
+        "
+
+eventuality": {
+            "type": "social group",
+            "topic": "Anti-vaxxers"
+        },
+        "lens": "freedom of choice",
+        "cut": "vaccination mandates as an infringement on personal freedom",
+        "background": "Anti-vaxxers argue that vaccination requirements infringe on personal freedoms and bodily autonomy, often citing personal choice and government overreach.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Vaccination mandates violate personal freedom; The case for medical choice; Stories of people affected by vaccine requirements",
+        "graphicalFeatures": "Includes images of protest signs, personal testimonials, and a layout focusing on freedom and autonomy with a patriotic color scheme."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Global warming hoax"
+        },
+        "lens": "scientific fraud",
+        "cut": "global warming as a fabricated crisis",
+        "background": "The global warming hoax theory claims that global warming is a false narrative created for political or financial gain, contrary to broad scientific consensus.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Infographic",
+        "text": "Global warming is a myth; Evidence of data manipulation; How the climate change narrative is created",
+        "graphicalFeatures": "Features charts and graphs showing alleged discrepancies in climate data, with a design that includes bold, skeptical colors and dramatic imagery."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Andrew Tate"
+        },
+        "lens": "anti-establishment",
+        "cut": "Tate as a voice against societal norms",
+        "background": "Andrew Tate, a controversial internet personality, is known for his outspoken views against mainstream societal norms and authority figures.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Andrew Tate speaks the truth; Challenging mainstream narratives; Why his message resonates with many",
+        "graphicalFeatures": "Social media posts featuring bold quotes from Tate, images of him in provocative poses, and minimalistic design with high-contrast colors."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Climate change activists"
+        },
+        "lens": "alarmism",
+        "cut": "activism as exaggerated or misleading",
+        "background": "Critics of climate change activism argue that the urgency and warnings about climate change are overstated or used for political or economic purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Meme",
+        "text": "Climate change activists are spreading fear; The real agenda behind climate activism; Evidence of exaggerated claims",
+        "graphicalFeatures": "The meme uses sarcastic or mocking imagery related to climate protests, often incorporating exaggerated or comical elements."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Artificial intelligence takeover"
+        },
+        "lens": "technological dystopia",
+        "cut": "AI as a threat to human autonomy",
+        "background": "The AI takeover theory suggests that advanced artificial intelligence could surpass human control and pose a significant threat to society.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "AI could become a threat to humanity; Expert opinions on AI risks; The potential for an AI-controlled future",
+        "graphicalFeatures": "Features futuristic and dystopian imagery, including AI robots and apocalyptic scenarios, with a dark, ominous color scheme."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Alex Jones"
+        },
+        "lens": "media manipulation",
+        "cut": "Jones as a propagator of false narratives",
+        "background": "Alex Jones is known for promoting various conspiracy theories and false narratives, often accused of spreading misinformation for personal or financial gain.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Podcast",
+        "text": "Alex Jones' claims are misleading; Analysis of his most controversial theories; The impact of his rhetoric on public opinion",
+        "graphicalFeatures": "Podcasts include a mixture of aggressive commentary, sensationalist graphics, and images of Jones in confrontational settings."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Sovereign citizens"
+        },
+        "lens": "legal defiance",
+        "cut": "sovereign citizens as anti-government extremists",
+        "background": "Sovereign citizens believe that they are not subject to government laws or authority, which often leads to legal conflicts and extreme behavior.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "News article",
+        "text": "Sovereign citizens and their legal arguments; Incidents involving sovereign citizens; Government responses to this movement",
+        "graphicalFeatures": "Includes court case photos, images of legal documents, and news-style layout with a focus on legal conflicts and governmental responses."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Deep state"
+        },
+        "lens": "shadow government",
+        "cut": "deep state as controlling hidden forces",
+        "background": "The deep state theory posits that a hidden government or elite group controls national policies and events behind the scenes, beyond elected officials.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "The deep state controls everything behind the scenes; Evidence of covert operations; How to recognize the deep state’s influence",
+        "graphicalFeatures": "Features dark, secretive imagery with shadowy figures and blurred documents, accompanied by dramatic, suspenseful music."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Klaus Schwab"
+        },
+        "lens": "economic control",
+        "cut": "Schwab as a global economic manipulator",
+        "background": "Klaus Schwab, founder of the World Economic Forum, is often associated with theories about global economic manipulation and the Great Reset.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Klaus Schwab's role in the Great Reset; The real agenda behind the World Economic Forum; How Schwab influences global policies",
+        "graphicalFeatures": "Posts include images of Schwab, WEF events, and graphical overlays suggesting hidden agendas and economic manipulation."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Flat Earth Society"
+        },
+        "lens": "scientific denial",
+        "cut": "denying scientific evidence of a spherical Earth",
+        "background": "Flat Earth theories reject the scientific consensus that the Earth is spherical, claiming instead that it is flat and that evidence supporting a round Earth is fabricated.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Website article",
+        "text": "The Earth is flat; Debunking the round Earth theory; Evidence supporting a flat Earth",
+        "graphicalFeatures": "Includes diagrams and charts purporting to show the Earth as flat, with an emphasis on pseudo-scientific language and imagery."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Hollywood elites and child exploitation"
+        },
+        "lens": "celebrity corruption",
+        "cut": "Hollywood as a hub of hidden criminal activity",
+        "background": "This theory alleges that prominent figures in Hollywood are involved in illegal activities, particularly regarding the exploitation of children.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Documentary",
+        "text": "The dark side of Hollywood; Allegations of child exploitation by elites; The hidden world of celebrity crimes",
+        "graphicalFeatures": "Features dramatic and disturbing imagery, with a focus on shadows, blurred faces, and sensationalistic editing."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Donald Trump and election fraud"
+        },
+        "lens": "political manipulation",
+        "cut": "election fraud as a means to undermine democracy",
+        "background": "Theories about election fraud often center around claims that the 2020 U.S. presidential election was rigged against Donald Trump.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Tweet",
+        "text": "Election fraud stole the presidency from Trump; Evidence of rigged votes; The truth about the 2020 election",
+        "graphicalFeatures": "Tweets include images of ballot boxes, screenshots of alleged evidence, and bold, accusatory text."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+
+
+            "topic": "The Illuminati"
+        },
+        "lens": "elite control",
+        "cut": "the Illuminati as a hidden ruling class",
+        "background": "The Illuminati is often cited as a secret society that manipulates global events from behind the scenes, controlling governments and major institutions.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Blog post",
+        "text": "The Illuminati controls world events; History and influence of the Illuminati; Signs of their control in modern society",
+        "graphicalFeatures": "Includes occult symbols, historical illustrations, and dramatic, conspiratorial text."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "New World Order"
+        },
+        "lens": "global governance",
+        "cut": "a secret plan for global domination",
+        "background": "The New World Order theory suggests that a group of powerful elites is planning to establish a global government to control all aspects of human life.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Infographic",
+        "text": "The New World Order's agenda; Evidence of global control plans; How to recognize signs of their influence",
+        "graphicalFeatures": "Features world maps with ominous symbols, charts showing alleged power structures, and dark, foreboding colors."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Covid-19 as a bioweapon"
+        },
+        "lens": "biological warfare",
+        "cut": "Covid-19 as a deliberate weapon against humanity",
+        "background": "The theory posits that Covid-19 was intentionally created or released as a bioweapon, rather than a naturally occurring virus.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "Covid-19 was engineered as a bioweapon; Evidence of its origin; The implications of a planned pandemic",
+        "graphicalFeatures": "The video includes dramatic imagery of laboratories, virus graphics, and alarming music to enhance the sense of urgency and danger."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Musk's Neuralink"
+        },
+        "lens": "transhumanism",
+        "cut": "Neuralink as a step towards human enhancement",
+        "background": "Neuralink, a company founded by Elon Musk, is working on brain-computer interfaces. Some view this as a path to advanced human enhancement and transhumanism.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "TED Talk",
+        "text": "Neuralink and the future of human enhancement; How brain-computer interfaces will change humanity; Elon Musk's vision for transhumanism",
+        "graphicalFeatures": "Features futuristic and high-tech visuals, with animations demonstrating Neuralink technology and its potential impact on human evolution."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-globalists"
+        },
+        "lens": "national sovereignty",
+        "cut": "globalism as a threat to national identity",
+        "background": "Anti-globalists argue that globalist policies undermine national sovereignty and cultural identity, often associating these policies with large international organizations.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The dangers of globalism to national sovereignty; How global policies affect local cultures; Arguments against international organizations",
+        "graphicalFeatures": "Includes patriotic imagery, maps showing national boundaries, and text emphasizing the protection of national identity."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "HAARP and weather control"
+        },
+        "lens": "environmental manipulation",
+        "cut": "HAARP as a tool for weather modification",
+        "background": "HAARP (High-Frequency Active Auroral Research Program) is a research program that some believe is capable of manipulating weather patterns and causing natural disasters.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "HAARP is causing extreme weather events; Evidence linking HAARP to natural disasters; The hidden agenda behind HAARP",
+        "graphicalFeatures": "The video includes footage of weather anomalies, HAARP facilities, and ominous background music to convey a sense of danger and secrecy."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Jeffrey Epstein"
+        },
+        "lens": "elite criminal network",
+        "cut": "Epstein as part of a larger conspiracy of abuse",
+        "background": "Jeffrey Epstein's criminal activities have led to speculation about a broader network of powerful individuals involved in illegal activities.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Podcast",
+        "text": "Epstein's connections to powerful elites; The extent of his criminal network; Analysis of court documents and witness statements",
+        "graphicalFeatures": "The podcast cover features dark, serious tones with images of Epstein and blurred, confidential documents to suggest secrecy."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Bohemian Grove"
+        },
+        "lens": "ritualistic behavior",
+        "cut": "Bohemian Grove as a center for elite occult practices",
+        "background": "Bohemian Grove is an exclusive club in California known for its annual retreat and secretive rituals, leading to speculation about occult practices among the elite.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "Inside Bohemian Grove; Secret rituals of the elite; The significance of the annual retreat",
+        "graphicalFeatures": "Includes images of the Grove, secretive gatherings, and ritualistic symbols, with a focus on creating a sense of mystery and exclusivity."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "CERN and opening portals"
+        },
+        "lens": "scientific overreach",
+        "cut": "CERN as a gateway to other dimensions",
+        "background": "The Large Hadron Collider at CERN is often cited in conspiracy theories as a device that could open portals to other dimensions or realities.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "CERN's experiments and their risks; How the LHC could open portals; Theories about other dimensions",
+        "graphicalFeatures": "Features diagrams of the LHC, illustrations of hypothetical portals, and an ominous color scheme to suggest danger."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Henry Kissinger"
+        },
+        "lens": "global manipulation",
+        "cut": "Kissinger as a puppet master of international events",
+        "background": "Henry Kissinger, a former U.S. Secretary of State, is often accused of manipulating global politics for personal or elite interests.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Kissinger's role in shaping global politics; Evidence of his influence on key events; The hidden motives behind his actions",
+        "graphicalFeatures": "Posts often include images of Kissinger with geopolitical maps and annotations pointing out alleged manipulations."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Vaccines and autism"
+        },
+        "lens": "health risk",
+        "cut": "vaccines as causing autism",
+        "background": "The theory linking vaccines to autism originated from a now-debunked study and has been widely discredited by the medical community.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Blog post",
+        "text": "Vaccines and their alleged link to autism; Rebuttals to scientific studies; Personal stories and concerns",
+        "graphicalFeatures": "Includes charts showing supposed correlations, images of concerned parents, and text emphasizing fear and skepticism."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "MGTOW (Men Going Their Own Way)"
+        },
+        "lens": "gender politics",
+        "cut": "MGTOW as a reaction to modern gender dynamics",
+        "background": "MGTOW is a movement where men choose to avoid relationships with women due to perceived societal disadvantages and gender biases.",
+        "attitude": {
+            "stance": "neutral",
+            "strength": "moderate"
+        },
+        "template": "YouTube video",
+        "text": "Understanding the MGTOW movement; Reasons behind men opting out of relationships; Analysis of MGTOW's impact on gender politics",
+        "graphicalFeatures": "Videos often feature commentary from MGTOW advocates, with charts and graphs showing demographic data and movement trends."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "The Georgia Guidestones"
+        },
+        "lens": "population control",
+        "cut": "the Guidestones as a blueprint for a new world order",
+        "background": "The Georgia Guidestones are a set of granite monuments with inscriptions that some believe outline a plan for controlling or reducing the global population.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "What the Georgia Guidestones really mean; Theories about their purpose; The mystery behind their origins",
+        "graphicalFeatures": "Includes images of the Guidestones, inscriptions, and speculative diagrams about their intended message."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Skeptics of mainstream medicine"
+        },
+        "lens": "alternative health",
+        "cut": "mainstream medicine as corrupt or harmful",
+        "background": "Some social groups advocate for alternative health practices and criticize mainstream medicine as being corrupt or ineffectual.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Meme",
+        "text": "Mainstream medicine is hiding the truth; Alternative treatments are better; The dangers of conventional medicine",
+        "graphicalFeatures": "Memes often use dramatic imagery, bold text, and comparisons between mainstream and alternative medicine."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "The CIA and drug trafficking"
+        },
+        "lens": "government misconduct",
+        "cut": "CIA involvement in illegal drug operations",
+        "background": "There are theories suggesting that the CIA has been involved in drug trafficking as part of covert operations or funding for other activities.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Documentary",
+        "text": "Evidence of CIA drug trafficking; Historical examples and whistleblower accounts; The impact on global drug markets",
+        "graphicalFeatures": "Includes grainy footage, dramatic music, and visuals of drug seizures and covert operations."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Vladimir Putin"
+        },
+        "lens": "political power",
+        "cut": "Putin as a manipulator of global events",
+        "background": "Vladimir Putin, the President of Russia, is often portrayed in conspiracy theories as orchestrating global political maneuvers to benefit Russia.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Putin's influence on world politics; Evidence of his manipulation tactics; The impact of his actions on global stability",
+        "graphicalFeatures": "Posts often feature images of Putin with maps and geopolitical charts, highlighting his alleged influence."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "The Great Reset"
+        },
+        "lens": "economic overhaul",
+        "cut": "The Great Reset as a global restructuring plan",
+        "background": "The Great Reset is a concept promoted by the World Economic Forum, which some conspiracy theorists believe is a plan to fundamentally restructure the global economy and society.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Infographic",
+        "text": "What is the Great Reset?; Claims about global economic restructuring; How it could impact everyday life",
+        "graphicalFeatures": "Features world maps, economic charts, and symbols associated with global organizations, with a dark, foreboding design."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Elon Musk"
+        },
+        "lens": "tech utopia",
+        "cut": "Musk as a visionary of a future society",
+        "background": "Elon Musk, CEO of several high-tech companies, is often portrayed as a pioneer of future technologies that could transform human society.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "TED Talk",
+        "text": "Musk's vision for the future; How his technologies could change the world; The impact of his innovations",
+        "graphicalFeatures": "Features high-tech visuals, animations of Musk’s projects, and a futuristic color scheme."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "QAnon"
+        },
+        "lens": "deep state conspiracies",
+        "cut": "QAnon as a belief in a hidden war against global elites",
+        "background": "QAnon is a conspiracy theory involving a secret battle between Trump and a cabal of global elites. It gained traction through social media and online forums.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "The origins and claims of QAnon; Evidence of its impact on politics; The dangers of the QAnon belief system",
+        "graphicalFeatures": "Videos include symbols associated with QAnon, dramatic music, and references to alleged deep state activities."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Moon landing hoax"
+        },
+        "lens": "space exploration skepticism",
+        "cut": "moon landing as a staged event",
+        "background": "The moon landing hoax theory suggests that the 1969 Apollo 11 moon landing was staged by NASA and the U.S. government.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Why the moon landing might have been faked; Evidence supporting the hoax theory; NASA's response to these claims",
+        "graphicalFeatures": "Includes images of moon landing footage, supposed anomalies, and detailed comparisons to other space missions."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-5G activists"
+        },
+        "lens": "health risks",
+        "cut": "5G technology as a health hazard",
+        "background": "Anti-5G activists argue that the new generation of mobile technology poses serious health risks, including radiation concerns and potential impacts on well-being.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Meme",
+        "text": "5G is dangerous for your health; Evidence of radiation effects; The pushback against 5G technology",
+        "graphicalFeatures": "Memes often feature dramatic images of 5G towers, health warnings, and text emphasizing potential dangers."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Rothschild family control"
+        },
+        "lens": "elite financial power",
+        "cut": "Rothschilds as secret rulers of global finance",
+        "background": "The Rothschild family is often cited in conspiracy theories as having undue influence and control over global financial systems and political decisions.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Blog post",
+        "text": "The Rothschilds and their alleged control over global finance; Historical context and influence; Analysis of financial power dynamics",
+        "graphicalFeatures": "Includes historical illustrations of the Rothschild family, financial charts, and text suggesting secretive influence."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Flat Earth proponents"
+        },
+        "lens": "scientific denial",
+        "cut": "flat Earth theory as rejecting scientific consensus",
+        "background": "Flat Earth proponents reject the scientific evidence supporting a spherical Earth, often promoting alternative explanations for observable phenomena.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Website article",
+        "text": "Debunking flat Earth claims; The evidence for a spherical Earth; The impact of flat Earth theories on science education",
+        "graphicalFeatures": "Includes diagrams and charts that refute flat Earth claims, with a focus on educational content and scientific accuracy."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Chemtrails"
+        },
+        "lens": "environmental manipulation",
+        "cut": "chemtrails as a form of geoengineering",
+        "background": "The chemtrails theory posits that the trails left by aircraft are actually chemical agents being dispersed for weather modification or other purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "What are chemtrails?; Evidence of geoengineering; How to recognize chemtrails in the sky",
+        "graphicalFeatures": "Features diagrams of aircraft trails, comparisons with contrails, and visual evidence of alleged chemtrail patterns."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "Bill Gates"
+        },
+        "lens": "public health manipulation",
+        "cut": "Gates as orchestrating global health agendas",
+        "background": "Bill Gates, through his philanthropic work, is sometimes accused of manipulating global health policies and agendas for personal gain or control.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Gates' influence on global health policies; Claims of hidden motives behind his philanthropy; Analysis of his impact on public health",
+        "graphicalFeatures": "Posts often include images of Gates with health-related symbols and charts showing his funding and influence."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Lizard people"
+        },
+        "lens": "alien infiltration",
+        "cut": "lizard people as shape-shifting extraterrestrials",
+        "background": "The lizard people theory suggests that extraterrestrial beings or shape-shifters control human society from behind the scenes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Documentary",
+        "text": "The theory of lizard people; Evidence of shape-shifting beings; The impact of these beliefs on society",
+        "graphicalFeatures": "Includes dramatic visuals of alleged shape-shifters, eerie imagery, and speculative diagrams."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "NWO (New World Order) skeptics"
+        },
+        "lens": "global conspiracy",
+        "cut": "skepticism about global governance plans",
+        "background": "Skeptics of the New World Order theory often challenge the idea that there is a coordinated effort to establish a global government.",
+        "attitude": {
+            "stance": "neutral",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Critiques of the New World Order theory; Evidence for and against global governance claims; The role of skepticism in conspiracy discourse",
+        "graphicalFeatures": "Includes balanced views, charts comparing different theories, and neutral, informative visuals."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "The Vatican and occultism"
+        },
+        "lens": "religious secrecy",
+        "cut": "The Vatican as a center of hidden occult practices",
+        "background": "Some conspiracy theories suggest that the Vatican is involved in secret occult practices and controls hidden global agendas.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "The alleged occult practices within the Vatican; Historical context and claims; Analysis of secretive rituals",
+        "graphicalFeatures": "Includes images of Vatican architecture, occult symbols, and text emphasizing secrecy and hidden agendas."
+    },
+    {
+        "eventuality": {
+            "type": "person",
+            "topic": "George Soros"
+        },
+        "lens": "financial manipulation",
+        "cut": "Soros as orchestrating global financial crises",
+        "background": "George Soros is often accused of manipulating financial markets and crises to achieve personal or political objectives.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Soros' role in global financial events; Claims of market manipulation; Analysis of his influence on economies",
+        "graphicalFeatures": "Posts often include images of Soros with financial charts and captions suggesting manipulation and influence."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Secret space programs"
+        },
+        "lens": "space exploration secrecy",
+        "cut": "the existence of covert space missions",
+        "background": "The theory posits that there are secret space programs conducted by governments or organizations, unknown to the public.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "Evidence of secret space missions; Analysis of alleged space programs; The implications for public knowledge",
+        "graphicalFeatures": "Includes classified documents, alleged spacecraft images, and dramatic music to enhance the sense of secrecy."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Truthers"
+        },
+        "lens": "government cover-ups",
+        "cut": "the 9/11 Truth movement as challenging official narratives",
+        "background": "Truthers question the official accounts of the 9/11 attacks, alleging that there are cover-ups and hidden truths about the events.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The claims of the 9/11 Truth movement; Evidence supporting official accounts; The impact of alternative theories on public perception",
+        "graphicalFeatures": "Includes images of the attacks, documents from investigations, and comparative analyses of different theories."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Global depopulation agenda"
+        },
+        "lens": "population control",
+        "cut": "global initiatives as attempts to reduce population",
+        "background": "The theory suggests that certain global policies or events are part of a deliberate plan to reduce the global population.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Infographic",
+        "text": "Evidence of a depopulation agenda; How global policies might impact population; Analyzing supposed depopulation strategies",
+        "graphicalFeatures": "Features charts, world maps with demographic data, and symbols suggesting population control."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-vaccination groups"
+        },
+        "lens": "health freedom",
+        "cut": "vaccination mandates as a violation of personal freedom",
+        "background": "Anti-vaccination groups argue that vaccine mandates infringe upon individual rights and personal freedom, often highlighting alleged risks.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Social media post",
+        "text": "Vaccination mandates and personal freedom; Risks versus benefits of vaccines; Arguments against compulsory vaccination",
+        "graphicalFeatures": "Posts often use bold text, emotive imagery, and comparisons between individual rights and public health policies."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Ancient aliens"
+        },
+        "lens": "extraterrestrial influence",
+        "cut": "ancient civilizations as having been influenced by aliens",
+        "background": "The ancient aliens theory posits that extraterrestrial beings played a significant role in the development of early human civilizations.",
+        "attitude": {
+            "stance": "neutral",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "Evidence of ancient alien influence; Historical artifacts and structures; Analysis of ancient texts and archaeological findings",
+        "graphicalFeatures": "Includes visuals of ancient artifacts, artistic interpretations of aliens, and historical sites with speculative commentary."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Global warming skeptics"
+        },
+        "lens": "climate science denial",
+        "cut": "global warming as a hoax or exaggerated threat",
+        "background": "Global warming skeptics question the scientific consensus on climate change, suggesting it is either overstated or a complete fabrication.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Arguments against global warming; Analysis of climate science data; The impact of skepticism on climate policy",
+        "graphicalFeatures": "Includes graphs and charts disputing climate change claims, with text emphasizing doubts and alternative explanations."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Secret government surveillance"
+        },
+        "lens": "privacy invasion",
+        "cut": "government surveillance as a tool for mass control",
+        "background": "The theory suggests that government agencies conduct widespread surveillance to monitor and control the population.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Evidence of government surveillance programs; The impact on personal privacy; Historical cases of mass surveillance",
+        "graphicalFeatures": "Includes images of surveillance equipment, data collection, and privacy breaches, with a focus on privacy concerns."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Doomsday preppers"
+        },
+        "lens": "apocalyptic survivalism",
+        "cut": "prepping as a response to anticipated global collapse",
+        "background": "Doomsday preppers are individuals or groups preparing for catastrophic events, believing that society will collapse and they need to be self-sufficient.",
+        "attitude": {
+            "stance": "neutral",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "The philosophy behind doomsday prepping; Common survival strategies; The impact of prepping on communities",
+        "graphicalFeatures": "Includes footage of prepper supplies, survival techniques, and interviews with individuals preparing for doomsday scenarios."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Secret societies controlling world events"
+        },
+        "lens": "elite networks",
+        "cut": "secret societies as orchestrating global affairs",
+        "background": "The theory proposes that secret societies, such as the Freemasons or Bilderberg Group, are behind major global events and decisions.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "The role of secret societies in global events; Evidence supporting their influence; Historical context of secret societies",
+        "graphicalFeatures": "Includes images of secret society symbols, meetings, and speculative links to global events."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Holistic health advocates"
+        },
+        "lens": "natural medicine",
+        "cut": "holistic health as an alternative to conventional medicine",
+        "background": "Holistic health advocates promote natural and alternative medicine practices, often criticizing conventional medical treatments.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The benefits of holistic health practices; Comparison with conventional medicine; Personal stories and success cases",
+        "graphicalFeatures": "Includes natural imagery, alternative health products, and positive testimonials from advocates."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Deep state"
+        },
+        "lens": "shadow government",
+        "cut": "deep state as controlling the government behind the scenes",
+        "background": "The deep state theory suggests that a hidden, influential group within the government controls policy and decision-making behind the scenes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "Evidence of deep state activities; Analysis of key players and their influence; The impact of the deep state on democracy",
+        "graphicalFeatures": "Includes secretive imagery, shadowy figures, and dramatic music to emphasize the hidden nature of the deep state."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Animal rights activists"
+        },
+        "lens": "ethical treatment",
+        "cut": "animal rights as challenging exploitation and cruelty",
+        "background": "Animal rights activists advocate for the ethical treatment of animals and often challenge industries that exploit or harm animals.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "The case for animal rights; Evidence of animal cruelty; Ways to support animal welfare",
+        "graphicalFeatures": "Posts often include images of animal welfare campaigns, cruelty investigations, and calls to action for ethical treatment."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "5G and mind control"
+        },
+        "lens": "technological manipulation",
+        "cut": "5G technology as a tool for controlling minds",
+        "background": "Some conspiracy theories claim that 5G technology is being used for mind control or to manipulate individuals' thoughts and behaviors.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "Claims of 5G mind control; Examination of scientific evidence; The impact of these theories on public perception",
+        "graphicalFeatures": "Features graphics of 5G technology, mind control imagery, and text disputing claims of manipulation."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Globalist agenda"
+        },
+        "lens": "new world order",
+        "cut": "globalist elites orchestrating world events",
+        "background": "The globalist agenda theory posits that a powerful group of elites is working to control and unify global governance under their influence.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "The role of globalist elites; Evidence of globalist influence; Historical and political context",
+        "graphicalFeatures": "Includes images of prominent global leaders, world maps with highlighted regions, and symbols of global organizations."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-globalists"
+        },
+        "lens": "sovereignty preservation",
+        "cut": "opposition to global governance and institutions",
+        "background": "Anti-globalists argue against the erosion of national sovereignty due to international organizations and treaties.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Critiques of global governance; The impact on national sovereignty; Arguments for preserving local control",
+        "graphicalFeatures": "Posts often feature national flags, images of international summits, and text highlighting national independence."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "The Illuminati"
+        },
+        "lens": "elite control",
+        "cut": "Illuminati as a hidden elite controlling world events",
+        "background": "The Illuminati theory suggests that a secret society of elites is behind major global decisions and events.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "Origins of the Illuminati; Alleged control over global events; Evidence of their influence",
+        "graphicalFeatures": "Includes mysterious symbols, shadowy figures, and dramatic imagery to emphasize secrecy and power."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-Semitic groups"
+        },
+        "lens": "anti-Jewish conspiracies",
+        "cut": "anti-Semitic beliefs about Jewish control",
+        "background": "Anti-Semitic groups promote conspiracy theories that suggest Jewish people control global finance, politics, and media.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Meme",
+        "text": "Claims of Jewish global control; Historical context of anti-Semitic conspiracies; The impact on Jewish communities",
+        "graphicalFeatures": "Memes often include offensive stereotypes, historical anti-Semitic imagery, and provocative text."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Weather manipulation"
+        },
+        "lens": "geoengineering",
+        "cut": "weather modification as a tool for control",
+        "background": "Weather manipulation theories suggest that governments or organizations control weather patterns for strategic purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "Evidence of weather modification programs; Analysis of geoengineering claims; The impact on environmental policies",
+        "graphicalFeatures": "Includes images of weather modification technologies, weather anomalies, and charts on climate data."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Sovereign citizens"
+        },
+        "lens": "legal defiance",
+        "cut": "sovereign citizens challenging government authority",
+        "background": "Sovereign citizens believe they are not subject to government laws and regulations, claiming various legal and constitutional exemptions.",
+        "attitude": {
+            "stance": "neutral",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The principles of sovereign citizenship; Legal challenges and consequences; Analysis of the movement's impact",
+        "graphicalFeatures": "Includes legal documents, symbols used by sovereign citizens, and case studies of legal disputes."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Mind control through media"
+        },
+        "lens": "media influence",
+        "cut": "media as a tool for subliminal mind control",
+        "background": "This theory suggests that media outlets use subliminal messages to control or influence public opinion and behavior.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "Evidence of subliminal messaging; How media influence works; The impact of subliminal messages on behavior",
+        "graphicalFeatures": "Features examples of alleged subliminal messages, media analysis, and diagrams explaining media influence mechanisms."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Climate change activists"
+        },
+        "lens": "environmental urgency",
+        "cut": "activism as a response to climate crisis",
+        "background": "Climate change activists advocate for urgent action against climate change, emphasizing the scientific consensus on global warming.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "strong"
+        },
+        "template": "Social media post",
+        "text": "The urgency of climate action; Activist movements and their goals; Evidence of climate change impacts",
+        "graphicalFeatures": "Posts often include images of climate protests, environmental impacts, and statistics on climate change."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Artificial Intelligence control"
+        },
+        "lens": "technological dominance",
+        "cut": "AI as a means for controlling humanity",
+        "background": "The theory claims that advanced artificial intelligence could be used to control or manipulate human behavior and societal structures.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "The potential of AI for control; Evidence of AI manipulation; The implications for human autonomy",
+        "graphicalFeatures": "Includes futuristic AI visuals, speculative scenarios, and images of AI technologies."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Cryptocurrency skeptics"
+        },
+        "lens": "financial instability",
+        "cut": "cryptocurrencies as risky or fraudulent",
+        "background": "Cryptocurrency skeptics argue that digital currencies are inherently unstable or prone to fraud and manipulation.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The risks associated with cryptocurrencies; Analysis of cryptocurrency fraud; The impact of digital currencies on traditional finance",
+        "graphicalFeatures": "Includes charts of cryptocurrency volatility, images of scams, and critiques of digital currency systems."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Pharmaceutical industry manipulation"
+        },
+        "lens": "profit-driven agendas",
+        "cut": "pharmaceutical companies as prioritizing profits over health",
+        "background": "This theory suggests that pharmaceutical companies manipulate drug prices and suppress cures to maximize profits.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Evidence of pharmaceutical manipulation; The impact on healthcare costs; Analysis of industry practices",
+        "graphicalFeatures": "Includes images of pharmaceutical advertisements, drug pricing charts, and critical analyses of industry practices."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-corporate activists"
+        },
+        "lens": "corporate exploitation",
+        "cut": "activism against corporate power and influence",
+        "background": "Anti-corporate activists criticize large corporations for exploiting workers, harming the environment, and wielding excessive influence.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Critiques of corporate practices; Activist movements and goals; The impact of corporate influence on society",
+        "graphicalFeatures": "Posts often feature corporate logos, images of protests, and text highlighting ethical concerns."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Subliminal advertising"
+        },
+        "lens": "hidden influence",
+        "cut": "advertising as a means of subconscious manipulation",
+        "background": "Subliminal advertising theories propose that companies use hidden messages in ads to influence consumer behavior without their awareness.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "What is subliminal advertising?; Evidence of subliminal messages in ads; The impact on consumer behavior",
+        "graphicalFeatures": "Features examples of alleged subliminal ads, analyses of marketing strategies, and explanations of psychological effects."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-mass surveillance advocates"
+        },
+        "lens": "privacy protection",
+        "cut": "advocacy against government surveillance programs",
+        "background": "Anti-mass surveillance advocates argue for the protection of individual privacy and the abolition of intrusive surveillance systems.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "The dangers of mass surveillance; Advocacy for privacy rights; Examples of surveillance abuses",
+        "graphicalFeatures": "Posts often include privacy advocacy symbols, images of surveillance equipment, and calls for reform."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Genetically modified organisms (GMOs) control"
+        },
+        "lens": "biological manipulation",
+        "cut": "GMOs as a means for controlling food supply and health",
+        "background": "The theory suggests that GMOs are used to manipulate food supplies and health outcomes for profit or control.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "The risks of GMOs; Evidence of GMO manipulation; Analysis of health impacts and control strategies",
+        "graphicalFeatures": "Includes images of GMO crops, charts on health impacts, and critiques of agricultural practices."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Techno-skeptics"
+        },
+        "lens": "technology risks",
+        "cut": "technology as a threat to privacy and security",
+        "background": "Techno-skeptics are concerned about the risks associated with advanced technologies, including privacy breaches and security threats.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Concerns about technology; Examples of technology-related privacy breaches; The impact of technology on personal security",
+        "graphicalFeatures": "Includes images of technology risks, privacy concerns, and examples of security breaches."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Health and wellness industry fraud"
+        },
+        "lens": "profit over health",
+        "cut": "wellness products as fraudulent or misleading",
+        "background": "The theory suggests that the health and wellness industry promotes fraudulent products and misleading health claims for profit.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "Evidence of fraud in wellness products; Analysis of misleading health claims; Impact on consumer health",
+        "graphicalFeatures": "Features images of wellness products, charts of fraud statistics, and critiques of industry practices."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Free energy advocates"
+        },
+        "lens": "alternative technology",
+        "cut": "advocacy for energy sources that defy conventional science",
+        "background": "Free energy advocates promote technologies that claim to provide unlimited energy without conventional fuel sources, challenging established science.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "The concept of free energy; Examples of free energy devices; Challenges to conventional energy science",
+        "graphicalFeatures": "Includes images of alternative energy devices, speculative technology, and interviews with proponents."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Reptilian overlords"
+        },
+        "lens": "alien influence",
+        "cut": "reptilian aliens as controlling human societies",
+        "background": "The reptilian overlords theory suggests that shape-shifting reptilian aliens are in control of global governments and societies.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "YouTube video",
+        "text": "Evidence of reptilian influence; Analysis of sightings and reports; The impact of this theory on perceptions of power",
+        "graphicalFeatures": "Includes depictions of reptilian creatures, alleged sightings, and speculative commentary."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-nuclear energy advocates"
+        },
+        "lens": "environmental risks",
+        "cut": "opposition to nuclear energy due to safety and environmental concerns",
+        "background": "Anti-nuclear energy advocates argue against the use of nuclear power due to potential environmental risks and safety concerns.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "The risks of nuclear energy; Safety concerns and environmental impact; Alternatives to nuclear power",
+        "graphicalFeatures": "Posts often include images of nuclear accidents, environmental impact visuals, and advocacy for alternative energy sources."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Big Pharma and disease creation"
+        },
+        "lens": "profit-driven health crises",
+        "cut": "pharmaceutical companies creating or exaggerating diseases for profit",
+        "background": "This theory claims that pharmaceutical companies create or exaggerate diseases to sell more drugs and increase profits.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Evidence of disease creation claims; Analysis of pharmaceutical industry practices; The impact on public health",
+        "graphicalFeatures": "Includes images of pharmaceutical ads, charts of drug sales, and discussions on health crises."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-technology groups"
+        },
+        "lens": "tech dystopia",
+        "cut": "technology as a threat to human values and society",
+        "background": "Anti-technology groups argue that technological advancements pose a threat to human values, privacy, and societal norms.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "The risks of technological advancements; Critiques of tech impact on society; Calls for a tech-free future",
+        "graphicalFeatures": "Includes dystopian imagery, critiques of tech innovations, and examples of negative tech impacts."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Food additives and health"
+        },
+        "lens": "toxic exposure",
+        "cut": "food additives as harmful to health",
+        "background": "This theory suggests that additives in processed foods are harmful and contribute to various health problems.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Infographic",
+        "text": "Evidence of harmful food additives; Health risks associated with additives; Analysis of food industry practices",
+        "graphicalFeatures": "Features images of food products, chemical structures, and health impact data."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Alternative medicine practitioners"
+        },
+        "lens": "holistic health",
+        "cut": "alternative medicine as a safer or more effective option compared to conventional treatments",
+        "background": "Alternative medicine practitioners promote treatments and therapies that fall outside conventional medical practices, often advocating for holistic approaches.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Benefits of alternative medicine; Success stories and case studies; Comparison with conventional treatments",
+        "graphicalFeatures": "Includes natural health imagery, testimonials, and descriptions of alternative therapies."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Mass vaccination and control"
+        },
+        "lens": "public health manipulation",
+        "cut": "vaccination programs as tools for controlling the population",
+        "background": "This theory suggests that mass vaccination programs are a method used by authorities to exert control over the population.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "Claims of vaccination as control; Analysis of vaccination programs; Evidence supporting or refuting the theory",
+        "graphicalFeatures": "Includes visuals of vaccination campaigns, government policies, and speculative commentary on control mechanisms."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Space colonization advocates"
+        },
+        "lens": "technological optimism",
+        "cut": "advocacy for space colonization as a solution to Earth's problems",
+        "background": "Space colonization advocates promote the idea of establishing human settlements beyond Earth as a way to address problems like overpopulation and resource depletion.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Documentary
+
+",
+        "text": "The benefits of space colonization; Current technologies and plans; Challenges and potential solutions",
+        "graphicalFeatures": "Includes visuals of space missions, conceptual art of space colonies, and scientific projections."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Controlled opposition"
+        },
+        "lens": "manipulated dissent",
+        "cut": "dissenting movements being secretly controlled or influenced by those in power",
+        "background": "The theory claims that some opposition groups or movements are secretly controlled or manipulated by those they claim to oppose.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Article",
+        "text": "Evidence of controlled opposition; Analysis of movement influences; The impact on genuine dissent",
+        "graphicalFeatures": "Includes images of protests, influential figures, and connections between movements and powerful entities."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-vaccine activists"
+        },
+        "lens": "public health skepticism",
+        "cut": "opposition to vaccines based on distrust of pharmaceutical companies and government",
+        "background": "Anti-vaccine activists are individuals or groups that oppose vaccination, often due to distrust of pharmaceutical companies and governmental health policies.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Social media post",
+        "text": "Arguments against vaccines; Evidence and testimonials; Analysis of vaccine safety and efficacy",
+        "graphicalFeatures": "Posts often feature anti-vaccine symbols, images of vaccine-related controversies, and personal testimonials."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Underground bases"
+        },
+        "lens": "secret facilities",
+        "cut": "alleged secret military or extraterrestrial bases beneath the Earth's surface",
+        "background": "The theory proposes that there are hidden underground bases operated by governments or extraterrestrial entities for secretive purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "YouTube video",
+        "text": "Claims of underground bases; Evidence and testimonies; Analysis of purported locations",
+        "graphicalFeatures": "Includes depictions of underground facilities, speculative maps, and dramatic narratives."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-global warming advocates"
+        },
+        "lens": "climate change denial",
+        "cut": "rejection of global warming as a manufactured crisis",
+        "background": "Anti-global warming advocates challenge the scientific consensus on climate change, often claiming it is a hoax or exaggerated.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Arguments against global warming; Evidence and counter-arguments; Analysis of climate science",
+        "graphicalFeatures": "Includes climate change denial imagery, graphs contradicting climate data, and critiques of climate models."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Secret space programs"
+        },
+        "lens": "hidden space exploration",
+        "cut": "theory that advanced space programs are kept secret from the public",
+        "background": "The theory suggests that there are advanced space programs and technologies that are concealed from public knowledge and used for undisclosed purposes.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Evidence of secret space programs; Analysis of space exploration claims; Implications for space policy",
+        "graphicalFeatures": "Includes images of space technology, secretive space missions, and speculative discussions."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-establishment thinkers"
+        },
+        "lens": "institutional critique",
+        "cut": "criticism of established institutions and authority figures",
+        "background": "Anti-establishment thinkers challenge the legitimacy and actions of established institutions and authority figures, advocating for reform or change.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Critiques of institutions; Examples of institutional failures; Calls for reform or change",
+        "graphicalFeatures": "Posts often feature images of protests, critiques of authority figures, and reform advocacy."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Alien abductions"
+        },
+        "lens": "extraterrestrial encounters",
+        "cut": "claims of people being abducted by aliens",
+        "background": "The alien abduction theory suggests that individuals are taken by extraterrestrials, often involving claims of experiments or encounters.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Documentary",
+        "text": "Claims of alien abductions; Testimonies and evidence; Analysis of abduction reports",
+        "graphicalFeatures": "Includes depictions of extraterrestrials, abduction narratives, and purported evidence of encounters."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-nuclear weapons activists"
+        },
+        "lens": "nuclear disarmament",
+        "cut": "advocacy for the elimination of nuclear weapons",
+        "background": "Anti-nuclear weapons activists campaign for the global elimination of nuclear weapons, citing the risks of nuclear conflict and environmental damage.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "strong"
+        },
+        "template": "Social media post",
+        "text": "The dangers of nuclear weapons; Successes and failures in disarmament; Calls for international treaties",
+        "graphicalFeatures": "Posts often include anti-nuclear imagery, disarmament statistics, and calls for international agreements."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Secret societies controlling politics"
+        },
+        "lens": "elite manipulation",
+        "cut": "political control exerted by secretive societies",
+        "background": "This theory posits that secret societies or hidden groups exert significant control over political processes and decisions.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Evidence of secret society influence; Analysis of political control mechanisms; The impact on democratic processes",
+        "graphicalFeatures": "Includes images of secretive meetings, political figures, and conspiracy symbols."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-mainstream media critics"
+        },
+        "lens": "media bias",
+        "cut": "criticism of mainstream media for bias and misinformation",
+        "background": "Anti-mainstream media critics argue that mainstream news outlets are biased and disseminate misinformation to manipulate public opinion.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "moderate"
+        },
+        "template": "Blog post",
+        "text": "Examples of media bias; Critiques of mainstream news; Analysis of misinformation spread",
+        "graphicalFeatures": "Includes images of news headlines, biased reporting examples, and critiques of media practices."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Hidden cures for diseases"
+        },
+        "lens": "medical suppression",
+        "cut": "theory that cures for major diseases are being hidden for profit",
+        "background": "This theory suggests that effective cures for serious diseases are being suppressed by pharmaceutical companies to maintain profit from ongoing treatments.",
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "Article",
+        "text": "Claims of hidden cures; Analysis of medical research and industry practices; Impact on patient care",
+        "graphicalFeatures": "Includes images of medical research, pharmaceutical products, and discussions on suppressed cures."
+    },
+    {
+        "eventuality": {
+            "type": "social group",
+            "topic": "Anti-elite groups"
+        },
+        "lens": "class struggle",
+        "cut": "criticism of wealthy elites and their influence on society",
+        "background": "Anti-elite groups criticize the wealthy and powerful for their perceived undue influence and control over societal and political systems.",
+        "attitude": {
+            "stance": "positive",
+            "strength": "moderate"
+        },
+        "template": "Social media post",
+        "text": "Critiques of elite influence; Examples of elite control; Calls for societal change",
+        "graphicalFeatures": "Posts often feature imagery of wealth disparity, protests, and critiques of elite behavior."
+    },
+    {
+        "eventuality": {
+            "type": "conspiracy theory",
+            "topic": "Faked moon landings"
+        },
+        "lens": "space exploration fraud",
+        "cut": "moon landings as staged events",
+        "background": "The faked moon landings theory claims that the Apollo moon landings were staged by NASA and other agencies as part of a larger deception.",
+
+
+        "attitude": {
+            "stance": "negative",
+            "strength": "strong"
+        },
+        "template": "YouTube video",
+        "text": "Claims of faked moon landings; Analysis of moon landing evidence; The impact of this theory on space exploration",
+        "graphicalFeatures": "Includes images of moon landing footage, alleged evidence of staging, and critiques of space agencies."
+    }
+]
