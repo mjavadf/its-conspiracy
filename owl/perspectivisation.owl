@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl">
+    <Prefix name="" IRI="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="https://w3id.org/framester/schema/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>An ontology for the perspectivisation frame: a type of events or situations, where a fact (a background) is reported within a certain storytelling (a lens), which creates a viewpoint (a cut), towards which the source (a conceptualiser)  holds a positive, negative, or neutral stance (an attitude).
+The result of perspectivisation is not only a linguistic or rhetorical artifice, because it typically involves a &apos;blending&apos; of the entities playing two roles: the cut, and the lens.
+For example, in political talk, when e.g. a democrat says that taxes are investments, the democrat (conceptualiser) holds an attitude towards the current taxation policies (cut from a background), viewed through the generally positive value associated with investments (lens).
+The expected result from the example is that a new entity emerges: an &apos;investment-blended&apos; meaning of taxes.
+A lot of public discussions, even in formal contexts, shows perspectivisation situations.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>1.0: 02-23-2021, by Aldo Gangemi
+2.0: 05-08-2024, by Aldo Gangemi, added Conceptual blending frame and D&amp;S punning axioms for reasoning across descriptions/frames and situations/frame occurrences</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blendable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlendingTheorySituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eventuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perspectivisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="schema:FrameOccurrence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#isSatisfiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/mdns/mdns.owl#nClassifiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Background"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Conceptualiser"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Eventuality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Lens"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contrasts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extractedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#holds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perspectivisedAs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perspectivisedThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shotThrough"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#toward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Background"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blendable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blended"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blending"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conceptualiser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eventuality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Perspectivisation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Attitude"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Attitude"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Background"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Background"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Blendable"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/mdns/mdns.owl#nClassifiedBy"/>
+            <NamedIndividual IRI="#Blendable"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Blended"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/mdns/mdns.owl#nClassifiedBy"/>
+            <NamedIndividual IRI="#Blended"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Blending"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/ont/mdns/mdns.owl#nClassifiedBy"/>
+            <NamedIndividual IRI="#Blending"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cut"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Cut"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eventuality"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Eventuality"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Lens"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Lens"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+            <NamedIndividual IRI="#Perspectivisation"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Attitude"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Background"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blendable"/>
+        <Class IRI="#Blending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blended"/>
+        <Class IRI="#Blending"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blending"/>
+        <Class IRI="#BlendingTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlendingTheorySituation"/>
+        <Class abbreviatedIRI="schema:FrameOccurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cut"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eventuality"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lens"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Attitude"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Cut"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Eventuality"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Lens"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#Background"/>
+            <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerspectivisationTheorySituation"/>
+        <Class abbreviatedIRI="schema:FrameOccurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="schema:FrameOccurrence"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Attitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Background"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Blendable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Blended"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Blending"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Conceptualiser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Cut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Eventuality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Lens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="schema:ConceptualFrame"/>
+        <NamedIndividual IRI="#Perspectivisation"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Attitude"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Background"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Conceptualiser"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Cut"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Eventuality"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Lens"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#isSettingFor"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#isSatisfiedBy"/>
+        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/description.owl#satisfies"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#contrasts"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Attitude"/>
+        <Class IRI="#Perspectivisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Background"/>
+        <Class IRI="#Perspectivisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Conceptualiser"/>
+        <Class IRI="#Perspectivisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Cut"/>
+        <ObjectUnionOf>
+            <Class IRI="#Background"/>
+            <Class IRI="#Perspectivisation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Eventuality"/>
+        <Class IRI="#Perspectivisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lens"/>
+        <Class IRI="#Perspectivisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contrasts"/>
+        <Class IRI="#Cut"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#extractedFrom"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perspectivisedAs"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perspectivisedThrough"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shotThrough"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#toward"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Attitude"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Background"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Cut"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Eventuality"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lens"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contrasts"/>
+        <Class IRI="#Cut"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creates"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#extractedFrom"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#holds"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perspectivisedAs"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perspectivisedThrough"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shotThrough"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#toward"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/situation.owl#Situation"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#Cut"/>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Cut"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Lens"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#Eventuality"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Attitude"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Cut"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#toward"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Conceptualiser"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Attitude"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#holds"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Cut"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Lens"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#shotThrough"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Eventuality"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Background"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#extractedFrom"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Eventuality"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Cut"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#perspectivisedAs"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#Eventuality"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#Lens"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#perspectivisedThrough"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#holds"/>
+            </ObjectInverseOf>
+            <ObjectProperty IRI="#toward"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#creates"/>
+    </SubObjectPropertyOf>
+    <HasKey>
+        <Class IRI="#Attitude"/>
+        <ObjectProperty IRI="#Attitude"/>
+    </HasKey>
+    <HasKey>
+        <Class IRI="#Background"/>
+        <ObjectProperty IRI="#Background"/>
+    </HasKey>
+    <HasKey>
+        <Class IRI="#Cut"/>
+        <ObjectProperty IRI="#Cut"/>
+    </HasKey>
+    <HasKey>
+        <Class IRI="#Eventuality"/>
+        <ObjectProperty IRI="#Eventuality"/>
+    </HasKey>
+    <HasKey>
+        <Class IRI="#Lens"/>
+        <ObjectProperty IRI="#Lens"/>
+    </HasKey>
+    <HasKey>
+        <Class IRI="#Perspectivisation"/>
+        <ObjectProperty IRI="#Attitude"/>
+        <ObjectProperty IRI="#Eventuality"/>
+        <ObjectProperty IRI="#Lens"/>
+    </HasKey>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Attitude</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attitude</IRI>
+        <Literal>The attitude of a conceptualiser towards an eventuality, perspectivised through the application of a lens, e.g., positive attitude towards taxation policies, reinforced by a positive value such as &apos;investment&apos; in &apos;taxes are investiments&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Background</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Background</IRI>
+        <Literal>The background knowledge for an eventuality targeted by perspectivisation, e.g., fiscal knowledge behind current taxation policies in &apos;taxes are investiments&apos;. In the example, only the background is expressed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Blendable</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blendable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:33:13Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blendable</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:35:13Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Blended</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blended</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:33:19Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blended</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:35:20Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Blending</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blending</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:33:07Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#Blending</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:35:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#BlendingTheorySituation</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#BlendingTheorySituation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:45:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Cut</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cut</IRI>
+        <Literal>The cut emerging from perspectivising an eventuality through a lens, e.g. taxation policies reframed as investments in &apos;taxes are investiments&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Eventuality</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eventuality</IRI>
+        <Literal>The eventuality targeted by perspectivisation, explicitly or implicitly extracted from its background knowledge (e.g., current taxation policies in &apos;taxes are investiments&apos;).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Lens</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lens</IRI>
+        <Literal>The lens used by perspectivisation on an eventuality, e.g., &apos;investments&apos; on current taxation policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#Perspectivisation</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Perspectivisation</IRI>
+        <Literal>A compositional frame for situations that provide a redescription of an eventuality by using a lens, with an attitude. It usually requires background knowledge for the eventuality (and possibly the lens), as well as one or more agents conceptualising it. 
+A &apos;cut&apos; (in the cinematic sense) emerges from a perspectivisation, which composes an eventuality with a lens, as in the example &apos;taxes are investments&apos;, where current taxation policies (the eventuality) is cut by shooting through the investment lens.
+The OWL representation of this frame includes heavy punning: each aspect of a perspectivisation is in fact modeled as a semantic role (holding between perspectivisation situations and the things involved in them, as an individual (the frame projections), as well as classes (the intensional components of the frame), since almost all aspects are frames on their turn.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Attitude</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Background</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Conceptualiser</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Cut</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Eventuality</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:semanticRole"/>
+        <IRI>#Perspectivisation</IRI>
+        <IRI>#Lens</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#PerspectivisationTheorySituation</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <IRI>#PerspectivisationTheorySituation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T09:45:36Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#extractedFrom</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#holds</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#perspectivisedThrough</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <IRI>#shotThrough</IRI>
+        <Literal>Aldo Gangemi</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
