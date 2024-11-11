@@ -1,0 +1,1482 @@
+[
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that chemtrails are chemicals sprayed by aircraft for sinister purposes."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Environmental manipulation and mind control."
+        },
+        "cut": {
+            "interpretation": "Contrails are perceived as chemical trails meant to control the population or modify the weather."
+        },
+        "background": {
+            "context": "Persistent contrails behind aircraft are claimed to be chemical agents rather than just water vapor."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Podcast"
+        },
+        "text": "Chemtrails are real; the government is altering the weather; chemicals in the air affect our health.",
+        "graphicalFeatures": "Images of planes with exaggerated contrails; diagrams of alleged spraying mechanisms.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Photographs of unusual sky patterns and testimonies from self-claimed insiders."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Chemtrail activists and online forums."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Meteorological studies explaining contrail formation and the lack of chemical residues."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "Event",
+            "description": "9/11 terrorist attacks."
+        },
+        "lens": {
+            "type": "FramingTechnique",
+            "description": "Inside job narrative."
+        },
+        "cut": {
+            "interpretation": "The attacks are portrayed as orchestrated by the US government to justify military action."
+        },
+        "background": {
+            "context": "Terrorist attacks on September 11, 2001, that led to significant global and domestic policy changes."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Documentary"
+        },
+        "text": "9/11 was an inside job; explosives planted in the buildings; insurance fraud by building owners.",
+        "graphicalFeatures": "Video analyses of the building collapses; interviews with dissenting engineers.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Footage showing building collapses and supposed irregularities in official reports."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "9/11 truth movement and conspiracy theorists."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Engineering analyses confirming the collapse due to structural damage and fire."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the Earth is hollow and inhabited by advanced civilizations."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Hidden world hypothesis."
+        },
+        "cut": {
+            "interpretation": "The Earth is perceived as hollow, housing ancient civilizations with advanced technology."
+        },
+        "background": {
+            "context": "A theory suggesting that there are vast internal spaces within the Earth, contrary to established geological science."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube series"
+        },
+        "text": "Evidence of hollow Earth; entrances at the poles; UFO sightings linked to inner Earth.",
+        "graphicalFeatures": "Maps showing hypothetical entrances; CGI animations of inner Earth civilizations.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Historical accounts and alleged expeditions that claim to have found entrances."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Professor John Allen, author and researcher of unexplained phenomena."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Geological studies affirming the solid structure of Earth's interior based on seismic data."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The idea that vaccines cause autism and other disorders."
+        },
+        "lens": {
+            "type": "FramingTechnique",
+            "description": "Health freedom and parental rights."
+        },
+        "cut": {
+            "interpretation": "Vaccines are portrayed as harmful, with risks of severe side effects like autism."
+        },
+        "background": {
+            "context": "Debunked studies and misinformation linking vaccines to autism, affecting public health efforts."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Instagram infographic"
+        },
+        "text": "Vaccines contain harmful chemicals; links to autism; parental choice in healthcare.",
+        "graphicalFeatures": "Colorful infographics with charts showing purported vaccine injury statistics.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Personal stories and discredited research linking vaccines to developmental disorders."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Anti-vaccine activists and alternative health advocates."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Extensive epidemiological studies showing no link between vaccines and autism."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "Event",
+            "description": "The assassination of John F. Kennedy."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Multiple shooter theory."
+        },
+        "cut": {
+            "interpretation": "The assassination is seen as a conspiracy involving more than one shooter."
+        },
+        "background": {
+            "context": "JFK was assassinated in Dallas, Texas, in 1963, with Lee Harvey Oswald accused as the lone gunman."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Historical analysis article"
+        },
+        "text": "Grassy knoll theory; conflicting eyewitness accounts; suppressed evidence by the Warren Commission.",
+        "graphicalFeatures": "Photos of Dealey Plaza with annotations; diagrams of shooter positions.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Eyewitness testimonies and acoustic analyses suggesting multiple gunshots."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Historian Robert Knight, author of several books on JFK conspiracies."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Ballistics tests and expert analyses supporting the lone shooter conclusion."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that a secretive group controls the world, often referred to as the Illuminati."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "New World Order agenda."
+        },
+        "cut": {
+            "interpretation": "The Illuminati is portrayed as a cabal manipulating global events to establish a single world government."
+        },
+        "background": {
+            "context": "References to a historical secret society and modern interpretations in popular culture."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "YouTube documentary"
+        },
+        "text": "Symbols in pop culture; control of banks and governments; agenda for world domination.",
+        "graphicalFeatures": "Symbolism analysis in music videos; clips of public figures allegedly using secret signs.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged insider leaks and symbolic interpretations in media and architecture."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Conspiracy theorists focused on secret societies and global elites."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Sociopolitical analyses debunking the feasibility of a single group controlling global affairs."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that climate change is a hoax perpetuated for political and financial gain."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Economic manipulation."
+        },
+        "cut": {
+            "interpretation": "Climate change is depicted as a fabricated crisis to justify taxation and regulation."
+        },
+        "background": {
+            "context": "Decades of scientific research pointing to human-induced climate change and its impacts."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Blog article"
+        },
+        "text": "Climate change is a scam; carbon tax as a control mechanism; scientists paid to spread fear.",
+        "graphicalFeatures": "Graphs showing alleged data manipulation; images of natural cycles explaining climate patterns.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Leaked emails and documents claiming collusion among climate scientists."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Alex Roberts, a climate change skeptic and political commentator."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Peer-reviewed studies and consensus from the scientific community confirming climate change trends."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "Event",
+            "description": "The sinking of the Titanic."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Insurance fraud theory."
+        },
+        "cut": {
+            "interpretation": "The Titanic's sinking is seen as an intentional act for insurance money."
+        },
+        "background": {
+            "context": "The Titanic sank in 1912 after hitting an iceberg, with significant loss of life and public impact."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "Titanic swapped with sister ship; intentional sinking for insurance; financial issues of owners.",
+        "graphicalFeatures": "Historical photos with annotations; video reenactments of alleged ship swap.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Testimonies and financial records suggesting motives for insurance fraud."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Titanic conspiracy theorists and maritime historians."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Historical and engineering analyses confirming the iceberg collision and structural failures."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The claim that the Large Hadron Collider (LHC) will create a black hole that destroys the Earth."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Doomsday prediction."
+        },
+        "cut": {
+            "interpretation": "The LHC is viewed as a dangerous experiment with catastrophic potential outcomes."
+        },
+        "background": {
+            "context": "The LHC is a particle collider designed to test fundamental physics theories, operated by CERN."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Twitter thread"
+        },
+        "text": "LHC experiments risk creating a black hole; warnings from scientists; no transparency from CERN.",
+        "graphicalFeatures": "Diagrams of black hole formation; speculative illustrations of Earth destruction.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Statements from concerned physicists and media reports emphasizing potential risks."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Doomsday preppers and anti-LHC activists."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific papers explaining the impossibility of creating destructive black holes at the LHC."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that reptilian aliens control the world by taking human form."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Alien control narrative."
+        },
+        "cut": {
+            "interpretation": "Reptilian aliens are portrayed as shape-shifting elites controlling world governments."
+        },
+        "background": {
+            "context": "A popular conspiracy involving extraterrestrial beings influencing human affairs."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Meme"
+        },
+        "text": "Reptilians among us; politicians as aliens; proof in hidden footage.",
+        "graphicalFeatures": "Images with distorted features of public figures; humorous captions.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged video glitches showing shape-shifting; insider accounts from supposed whistleblowers."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "David Icke, author and public speaker on reptilian theories."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Lack of empirical evidence and scientific feasibility of shape-shifting species."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that a secret elite is controlling world events to establish a totalitarian global government."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Totalitarian global control."
+        },
+        "cut": {
+            "interpretation": "Global events are manipulated by elites to enforce a single world government."
+        },
+        "background": {
+            "context": "Theories of elite control date back to the late 20th century, often involving references to the Illuminati and Bilderberg Group."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "TikTok video"
+        },
+        "text": "Elite plotting global takeover; evidence from secret meetings; economic crises engineered for control.",
+        "graphicalFeatures": "Clips from alleged secret meetings; graphics showing connections between global leaders.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Documents and video footage purporting to show meetings of world leaders discussing global control."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Emma Blake, social media influencer known for discussing conspiracy theories."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Analyses by political scientists debunking the feasibility of a unified global government controlled by a single group."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that HIV/AIDS was deliberately created and spread by governments."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Bioweapon hypothesis."
+        },
+        "cut": {
+            "interpretation": "HIV/AIDS is perceived as a man-made virus released to target specific populations."
+        },
+        "background": {
+            "context": "HIV/AIDS emerged in the late 20th century, with ongoing scientific research into its origins and treatments."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Blog post"
+        },
+        "text": "HIV engineered as bioweapon; documents proving lab origin; targeted to control population.",
+        "graphicalFeatures": "Charts showing alleged virus design process; annotated historical documents.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Leaked government documents and testimonies claiming a connection to laboratory experiments."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Activist groups questioning the origins of pandemics and public health crises."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Research tracing the natural origin of HIV from primates to humans, supported by genetic studies."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the government is covering up evidence of alien life at Area 51."
+        },
+        "lens": {
+            "type": "FramingTechnique",
+            "description": "Alien cover-up."
+        },
+        "cut": {
+            "interpretation": "Area 51 is seen as a site for extraterrestrial research and concealment."
+        },
+        "background": {
+            "context": "Area 51 is a highly classified U.S. Air Force facility, leading to widespread speculation about its activities."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Reddit thread"
+        },
+        "text": "Aliens held at Area 51; government secrecy; witness reports from former employees.",
+        "graphicalFeatures": "Satellite images of the facility; illustrations of alleged alien technology.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Anecdotal evidence and interviews with former military personnel claiming knowledge of extraterrestrial artifacts."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "UFO enthusiasts and conspiracy theorists focused on extraterrestrial life."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Statements from government officials and lack of verifiable evidence supporting the alien hypothesis."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that mind control is used by governments through subliminal messages in media."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Mass control and manipulation."
+        },
+        "cut": {
+            "interpretation": "Media is used to subtly influence and control public thought and behavior."
+        },
+        "background": {
+            "context": "The concept of subliminal messages has been a part of psychological studies and pop culture for decades."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Online article"
+        },
+        "text": "Subliminal messaging in media; government agenda to control minds; hidden messages in advertising.",
+        "graphicalFeatures": "Screenshots of advertisements with highlighted hidden images; diagrams explaining subliminal techniques.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Analyses of media content showing alleged subliminal cues and their psychological impact."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Dr. Mark Turner, psychologist and author on media influence."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific reviews finding no significant impact of subliminal messages on behavior."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that pharmaceutical companies suppress natural cures to maintain profits."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Health and corporate greed."
+        },
+        "cut": {
+            "interpretation": "Natural remedies are suppressed by pharmaceutical companies to ensure continued drug sales."
+        },
+        "background": {
+            "context": "The natural health movement often challenges the practices of big pharmaceutical companies."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Facebook post"
+        },
+        "text": "Cures for cancer hidden; pharmaceutical industry profits over people; testimonials from natural healers.",
+        "graphicalFeatures": "Infographics comparing natural remedies to pharmaceuticals; images of protest rallies.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Personal testimonials and alleged leaked documents from pharmaceutical insiders."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Alternative medicine advocates and wellness bloggers."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Research studies showing the efficacy and safety of approved medical treatments."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that 5G technology is harmful and part of a population control plan."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Health risks and surveillance."
+        },
+        "cut": {
+            "interpretation": "5G is perceived as a tool for health harm and increased government surveillance."
+        },
+        "background": {
+            "context": "5G technology is the latest in mobile network advancements, promising faster data speeds."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "YouTube vlog"
+        },
+        "text": "5G towers cause health issues; increased radiation levels; privacy invasion concerns.",
+        "graphicalFeatures": "Footage of 5G tower installations; charts showing radiation exposure levels.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Studies cited as evidence of harmful effects; interviews with concerned citizens."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Lisa Green, technology critic and environmental activist."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Extensive research from health organizations confirming the safety of 5G radiation levels."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that the CIA orchestrated the assassination of Martin Luther King Jr."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Political suppression."
+        },
+        "cut": {
+            "interpretation": "MLK's assassination is viewed as a government plot to silence his activism."
+        },
+        "background": {
+            "context": "Martin Luther King Jr. was a civil rights leader assassinated in 1968, with official investigations concluding a lone gunman."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Documentary film"
+        },
+        "text": "Government feared MLK's influence; CIA involvement in assassination; eyewitness accounts ignored.",
+        "graphicalFeatures": "Reenactments of the assassination; interviews with civil rights activists.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Testimonies and alleged documents suggesting government involvement in his death."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Civil rights historians and conspiracy theorists focused on political assassinations."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Legal investigations and forensic analyses upholding the lone assassin conclusion."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that fluoridation of water is a government mind control tactic."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Mass manipulation through health policy."
+        },
+        "cut": {
+            "interpretation": "Water fluoridation is depicted as a method for controlling the population's mental state."
+        },
+        "background": {
+            "context": "Fluoridation is a public health measure to reduce tooth decay, sparking debates about safety and ethics."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Blog post"
+        },
+        "text": "Fluoride as a mind control chemical; government agenda; scientific studies manipulated.",
+        "graphicalFeatures": "Images of water plants with annotations; chemical structure diagrams of fluoride compounds.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged research and personal accounts from anti-fluoride activists."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Anti-fluoride activists and alternative health groups."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Public health studies confirming the benefits and safety of fluoride in drinking water."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that global warming is a hoax to enforce environmental regulations."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Economic and political control."
+        },
+        "cut": {
+            "interpretation": "Climate change is depicted as a fabricated crisis to push regulatory agendas."
+        },
+        "background": {
+            "context": "Scientific consensus supports climate change as a result of human activity, leading to policy debates."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "Climate change is a myth; regulatory overreach; scientists bribed for false data.",
+        "graphicalFeatures": "Graphs illustrating supposed data tampering; interviews with climate change skeptics.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged leaked emails and misinterpreted climate models."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Thomas Lee, a journalist and climate policy critic."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Extensive scientific research and data supporting the reality and impact of climate change."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that vaccines contain microchips for government tracking."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Surveillance and loss of privacy."
+        },
+        "cut": {
+            "interpretation": "Vaccines are seen as a tool for embedding microchips to track individuals."
+        },
+        "background": {
+            "context": "Vaccine misinformation has spread during public health crises, often fueled by technological concerns."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Instagram story"
+        },
+        "text": "Microchips in vaccines; government tracking devices; loss of personal freedom.",
+        "graphicalFeatures": "Illustrations of syringe with embedded chips; memes mocking surveillance fears.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Claims by self-styled experts and doctored images showing alleged microchips in vaccine vials."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Anti-vaccine groups and privacy advocates."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Technical analyses and expert statements refuting the feasibility of chip-implanted vaccines."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that Paul McCartney died in 1966 and was replaced by a look-alike."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Celebrity imposter theory."
+        },
+        "cut": {
+            "interpretation": "The real Paul McCartney was replaced by a double, and clues are hidden in Beatles' songs."
+        },
+        "background": {
+            "context": "Rumors began in the late 1960s, fueled by alleged clues in Beatles' album covers and lyrics."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube documentary"
+        },
+        "text": "Paul is dead; hidden clues in album covers; new Paul's inconsistent features.",
+        "graphicalFeatures": "Side-by-side comparisons of old and new photos; highlighted 'clues' in album art.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Interpretations of lyrics and album art as clues to McCartney's supposed death."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Fans and music enthusiasts intrigued by Beatles lore."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Photographic and forensic analysis showing no significant changes in McCartney's appearance."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the Holocaust was exaggerated or did not happen as reported."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Holocaust denial."
+        },
+        "cut": {
+            "interpretation": "The Holocaust is seen as a fabricated event for political purposes."
+        },
+        "background": {
+            "context": "Historical revisionism challenging the established accounts of the Holocaust during World War II."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Website"
+        },
+        "text": "Holocaust exaggerated; evidence fabricated; numbers inflated for sympathy.",
+        "graphicalFeatures": "Charts showing alleged inconsistencies in historical data; images questioning camp conditions.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Selective historical documents and testimonies used to question the scale of the Holocaust."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Holocaust deniers and historical revisionists."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Extensive documentation and eyewitness accounts confirming the historical reality of the Holocaust."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the U.S. government uses HAARP to control the weather."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Weather modification as a tool of control."
+        },
+        "cut": {
+            "interpretation": "HAARP is perceived as a program for climate manipulation to benefit political interests."
+        },
+        "background": {
+            "context": "HAARP (High-Frequency Active Auroral Research Program) is an ionospheric research program often associated with conspiracy theories."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Twitter thread"
+        },
+        "text": "HAARP causes hurricanes; government controls weather; unusual weather patterns as proof.",
+        "graphicalFeatures": "Satellite images of weather patterns; facility photos with speculative annotations.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Weather anomalies and patterns linked to HAARP activities."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Conspiracy theorists focusing on weather and climate control."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific explanations of natural weather phenomena and HAARP's technical limitations."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that COVID-19 vaccines alter human DNA."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Genetic manipulation fear."
+        },
+        "cut": {
+            "interpretation": "Vaccines are viewed as a method to change human genetics permanently."
+        },
+        "background": {
+            "context": "Misinformation surrounding the mechanisms of mRNA vaccines developed for COVID-19."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "mRNA vaccines modify DNA; long-term genetic effects; scientists warning about future risks.",
+        "graphicalFeatures": "Animations showing DNA alteration; diagrams of mRNA structures.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Misinterpretations of scientific papers and warnings from discredited experts."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Anti-vaccine groups and alternative health practitioners."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific consensus on mRNA vaccines not altering DNA and their safety profiles."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the Bermuda Triangle is a portal to another dimension."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Mystical and paranormal interpretation."
+        },
+        "cut": {
+            "interpretation": "Disappearances in the Bermuda Triangle are attributed to a supernatural portal."
+        },
+        "background": {
+            "context": "The Bermuda Triangle is a region in the Atlantic Ocean known for mysterious disappearances of ships and aircraft."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Podcast"
+        },
+        "text": "Ships and planes vanish without a trace; unexplained phenomena; theories of a dimensional portal.",
+        "graphicalFeatures": "Maps showing incidents; artist renderings of dimensional rifts.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Anecdotal accounts from survivors and historical records of disappearances."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Paranormal researchers and enthusiasts."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific explanations for natural hazards and navigational errors in the area."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that Elvis Presley faked his own death and is living in seclusion."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Celebrity disappearance."
+        },
+        "cut": {
+            "interpretation": "Elvis is portrayed as having faked his death to escape fame."
+        },
+        "background": {
+            "context": "Elvis Presley, the 'King of Rock and Roll,' died in 1977, sparking numerous sightings and theories of survival."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Blog article"
+        },
+        "text": "Elvis seen alive; mysterious sightings; evidence he staged his death.",
+        "graphicalFeatures": "Photos of alleged sightings; comparison images from before and after his death.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Eyewitness accounts and media reports claiming to have seen Elvis alive."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Elvis fans and conspiracy theorists interested in celebrity mysteries."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Death certificate and autopsy reports confirming Elvis Presley's death."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the CIA introduced crack cocaine into African American neighborhoods in the 1980s."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Government oppression and control."
+        },
+        "cut": {
+            "interpretation": "The crack epidemic is viewed as a deliberate attempt by the CIA to destabilize African American communities."
+        },
+        "background": {
+            "context": "During the 1980s, crack cocaine use surged in the U.S., with lasting social and economic impacts on affected communities."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Documentary"
+        },
+        "text": "CIA involved in drug trafficking; targeting African American communities; evidence of government complicity.",
+        "graphicalFeatures": "Archival footage of affected neighborhoods; interviews with former drug dealers and officials.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Reports and testimonies alleging CIA involvement in drug trade activities."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Social justice activists and community leaders."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Investigations and government reports refuting direct CIA involvement in drug distribution."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that Princess Diana was murdered by the British royal family."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Royal family intrigue."
+        },
+        "cut": {
+            "interpretation": "Diana's death is seen as an orchestrated murder to protect royal secrets."
+        },
+        "background": {
+            "context": "Princess Diana died in a car crash in Paris in 1997, leading to numerous conspiracy theories about her death."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "Diana's death was no accident; royal family involved; suspicious circumstances.",
+        "graphicalFeatures": "Recreations of the crash; interviews with conspiracy theorists and royal insiders.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Allegations of tampered evidence and testimonies from individuals close to Diana."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Royal conspiracy theorists and some investigative journalists."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Official investigations and forensic reports confirming the accidental nature of the crash."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that the moon is an artificial structure created by extraterrestrial beings."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Alien architecture."
+        },
+        "cut": {
+            "interpretation": "The moon is viewed as a constructed base for extraterrestrial operations."
+        },
+        "background": {
+            "context": "The moon has been a subject of fascination and speculation, with theories of alien involvement in its formation."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Podcast"
+        },
+        "text": "Moon is hollow; alien base inside; strange anomalies unexplained by science.",
+        "graphicalFeatures": "3D models showing supposed interior structures; images of lunar surface anomalies.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Interpreted anomalies in moon landing photos and videos suggesting artificiality."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Ufologists and alien researchers."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Astronomical studies confirming the natural formation and characteristics of the moon."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the Denver International Airport is a hub for Illuminati activities."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Secret society symbolism."
+        },
+        "cut": {
+            "interpretation": "The airport is seen as a covert base for secret society operations."
+        },
+        "background": {
+            "context": "Opened in 1995, Denver International Airport has been the subject of various conspiracy theories due to its unusual art and design."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube series"
+        },
+        "text": "Bizarre murals; underground bunkers; ties to secret societies.",
+        "graphicalFeatures": "Images of murals and airport architecture with highlighted symbols; diagrams of alleged underground layouts.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Analysis of artwork and design elements linked to secret society symbolism."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Conspiracy theorists and researchers into secret societies."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Official explanations of airport art and design choices as artistic and architectural decisions."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the world is run by a group of elite families known as the Rothschilds."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Financial domination."
+        },
+        "cut": {
+            "interpretation": "The Rothschild family is portrayed as manipulating global events through control of financial institutions."
+        },
+        "background": {
+            "context": "The Rothschild family is historically significant in banking and finance, often targeted by anti-Semitic conspiracies."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Blog post"
+        },
+        "text": "Rothschilds control world banks; puppet masters of global politics; evidence of financial domination.",
+        "graphicalFeatures": "Infographics showing connections between Rothschilds and major financial entities.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged historical documents and financial records used to suggest undue influence."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Anti-establishment activists and conspiracy theorists focused on financial elites."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Economic analyses and historical records demonstrating diverse influences in global finance."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the Loch Ness Monster is a creature left from prehistoric times."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Cryptozoological legend."
+        },
+        "cut": {
+            "interpretation": "Nessie is seen as evidence of surviving prehistoric species."
+        },
+        "background": {
+            "context": "Reports of a large aquatic creature in Loch Ness, Scotland, have persisted for over a century."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Documentary"
+        },
+        "text": "Nessie spotted again; sonar evidence supports existence; historical accounts of sightings.",
+        "graphicalFeatures": "Sonar imaging results; photos and videos of alleged sightings.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Sonar and photographic evidence, along with eyewitness testimonies."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Cryptozoologists and folklore enthusiasts."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific studies suggesting sightings are misidentifications of natural phenomena."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that Queen Elizabeth I was actually a man in disguise."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Historical gender deception."
+        },
+        "cut": {
+            "interpretation": "Queen Elizabeth I is portrayed as a male imposter ruling England."
+        },
+        "background": {
+            "context": "Queen Elizabeth I, known as the 'Virgin Queen,' reigned from 1558 to 1603, with rumors about her personal life persisting."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "Elizabeth's secret life; evidence of gender disguise; hidden history.",
+        "graphicalFeatures": "Portrait comparisons and historical document excerpts.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Speculative analyses of historical texts and portraits."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Historical conspiracy theorists and speculative historians."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Examinations of historical records confirming Elizabeth I's documented life."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the government can read minds through advanced technology."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Surveillance and privacy invasion."
+        },
+        "cut": {
+            "interpretation": "Mind-reading technology is seen as a tool for government control and surveillance."
+        },
+        "background": {
+            "context": "Concerns about privacy and surveillance have increased with technological advancements."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Twitter thread"
+        },
+        "text": "Mind-reading devices in use; government invades privacy; proof of technology in action.",
+        "graphicalFeatures": "Illustrations of supposed devices; diagrams of brain-computer interfaces.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Claims from alleged whistleblowers and speculative technological designs."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Privacy advocates and technology skeptics."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Technical analyses of current limitations in brain-computer interface technology."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that Google Earth images reveal hidden ancient civilizations."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Archaeological mystery."
+        },
+        "cut": {
+            "interpretation": "Satellite images are seen as evidence of ancient structures and civilizations."
+        },
+        "background": {
+            "context": "Google Earth provides detailed satellite images, leading to amateur and professional discoveries."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "Blog article"
+        },
+        "text": "Ancient pyramids found; evidence in satellite images; hidden history revealed.",
+        "graphicalFeatures": "Annotated satellite images; maps showing supposed structures.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Satellite imagery interpreted as revealing ancient architectural features."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Amateur archaeologists and conspiracy theorists interested in lost civilizations."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Archaeological reviews confirming natural formations and known historical sites."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that subliminal messages in media are used to influence public behavior."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Mass manipulation through media."
+        },
+        "cut": {
+            "interpretation": "Media is seen as using subliminal messages to control consumer choices and social behavior."
+        },
+        "background": {
+            "context": "The concept of subliminal messaging has been explored in psychology and advertising since the mid-20th century."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "YouTube video"
+        },
+        "text": "Hidden messages in ads; mind control through media; evidence from psychological studies.",
+        "graphicalFeatures": "Video clips with highlighted subliminal elements; expert interviews on media influence.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Examples of alleged subliminal cues in advertising and entertainment."
+        },
+        "proponent": {
+            "type": "Person",
+            "description": "Dr. Linda Smith, a media analyst and author."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Studies showing limited or no effects of subliminal messages on behavior."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that the government can control the weather using advanced technology."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Environmental manipulation."
+        },
+        "cut": {
+            "interpretation": "Weather control technology is seen as a tool for political and military advantages."
+        },
+        "background": {
+            "context": "Weather modification research has been ongoing since the mid-20th century, primarily for peaceful purposes."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Moderate"
+        },
+        "mediaContent": {
+            "format": "Podcast"
+        },
+        "text": "Weather manipulated by HAARP; government control of climate; unexplained natural disasters.",
+        "graphicalFeatures": "Charts of weather patterns; images of HAARP facility.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Weather anomalies and historical data suggesting human intervention."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Climate conspiracy theorists and anti-government activists."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Meteorological explanations of natural weather patterns and phenomena."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that major pharmaceutical companies suppress natural cancer cures."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Corporate greed and health suppression."
+        },
+        "cut": {
+            "interpretation": "Pharmaceutical companies are seen as prioritizing profit over effective natural treatments."
+        },
+        "background": {
+            "context": "The natural health movement often criticizes the pharmaceutical industry for focusing on profitable drugs."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Instagram infographic"
+        },
+        "text": "Cures for cancer hidden; pharmaceutical industry profits over people; testimonials from natural healers.",
+        "graphicalFeatures": "Infographics comparing natural remedies to pharmaceuticals; images of protest rallies.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Personal testimonials and alleged leaked documents from pharmaceutical insiders."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Alternative medicine advocates and wellness bloggers."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Research studies showing the efficacy and safety of approved medical treatments."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The theory that the government is hiding evidence of time travel."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Temporal manipulation."
+        },
+        "cut": {
+            "interpretation": "Time travel technology is portrayed as real and kept secret for governmental advantage."
+        },
+        "background": {
+            "context": "Time travel has been a popular science fiction theme, with some claiming it could be possible."
+        },
+        "attitude": {
+            "stance": "Neutral",
+            "strength": "Varies"
+        },
+        "mediaContent": {
+            "format": "YouTube series"
+        },
+        "text": "Time travelers caught on camera; government experiments; anomalies in historical records.",
+        "graphicalFeatures": "Video clips of alleged time travelers; comparisons of historical and modern images.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Alleged photographic and video evidence of time travelers."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Science fiction enthusiasts and conspiracy theorists interested in temporal phenomena."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Scientific explanations debunking the feasibility of time travel with current technology."
+        }
+    },
+    {
+        "eventuality": {
+            "type": "ConspiracyTheory",
+            "description": "The belief that JFK's assassination was ordered by a secret cabal within the U.S. government."
+        },
+        "lens": {
+            "type": "Narrative",
+            "description": "Political intrigue and cover-up."
+        },
+        "cut": {
+            "interpretation": "The assassination of JFK is portrayed as a coup orchestrated by government insiders."
+        },
+        "background": {
+            "context": "John F. Kennedy was assassinated in 1963, with numerous theories arising about who was truly responsible."
+        },
+        "attitude": {
+            "stance": "Negative",
+            "strength": "Strong"
+        },
+        "mediaContent": {
+            "format": "Documentary film"
+        },
+        "text": "JFK killed by insiders; evidence of multiple shooters; witness testimonies ignored.",
+        "graphicalFeatures": "Reenactments of the assassination; diagrams showing alleged shooter locations.",
+        "evidence": {
+            "type": "Evidence",
+            "description": "Conflicting eyewitness accounts and interpretations of ballistic evidence."
+        },
+        "proponent": {
+            "type": "Community",
+            "description": "Conspiracy theorists focused on political assassinations and historians questioning official narratives."
+        },
+        "scientificAnalysis": {
+            "type": "CounterEvidence",
+            "description": "Official investigations and forensic analyses supporting the lone gunman conclusion."
+        }
+    }
+]

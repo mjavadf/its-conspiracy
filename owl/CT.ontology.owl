@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40/"
+     xml:base="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#InterpretedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#InterpretedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#comesFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#comesFrom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#gives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#gives">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Expert"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Scientist"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Witness"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Testimony"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#hasA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#hasA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NegativeAttitude"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NeutralAttitude"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PositiveAttitude"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#shotThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#shotThrough">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#viewedThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#viewedThrough">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#writes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#writes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Investigator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#AdvocancyCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#AdvocancyCut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>represents interpretations that actively support and advocate for the conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent">
+        <rdfs:comment>The conceptualizer or perspective holder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background">
+        <rdfs:comment>represents the social context that can shapoe the narrative of an agent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+        <rdfs:comment>Any group of people who share the same goal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#CompromisingCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#CompromisingCut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>represents perspectives or interpretations that expose weaknesses or flaws in a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyLens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyTheoryGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyTheoryGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#EmotionalCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#EmotionalCut">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>represents interpretations driven by emotional appeals</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+        <rdfs:comment>a person specialized in a topic</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GeneralPublic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GeneralPublic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GovernmentLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GovernmentLens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#HistoricalContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#HistoricalContext">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PersonalExperience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+        <rdfs:comment>person who finds the proofs for a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#MediaLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#MediaLens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NegativeAttitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NegativeAttitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>negative attitude towards a conspiracy theory, the Agent who has this attitude is a Skeptic</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NeutralAttitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NeutralAttitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>neutral attitude towards a conspiracy theory or its opposite</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:comment>could be a document, a video or any material thing that could be interpreted with a cut</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+        <rdfs:comment>A singular individual</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PersonalExperience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PersonalExperience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PositiveAttitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PositiveAttitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>positive attitude towards a conspiracy theory, the agent who has this attitude is a Proponent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Proponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Proponent">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#hasA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PositiveAttitude"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+        <rdfs:comment>Agent who has a Positive Attitude towards a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScienceLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScienceLens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScientificCommunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScientificCommunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+        <rdfs:comment>member of the scientific community</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Skeptic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Skeptic">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/untitled-ontology-40#hasA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NegativeAttitude"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+        <rdfs:comment>Agent who has a Negative Attitude towards a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Testimony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Testimony">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Whistleblower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Whistleblower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+        <rdfs:comment>insider of a community accused of nefarious actions by the conspiracy theory who reveals important information regarding the wrongdoings of said community</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Witness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Witness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude">
+        <rdfs:comment>represents the values and goals of the agent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut">
+        <rdfs:comment>represents the result of an eventuality that has been perspectivized through a lens</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality">
+        <rdfs:comment>any occurrence subjected to perspectivization</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens">
+        <rdfs:comment>represents the point of view to take on to interpret reality</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#AdvocancyCut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#CompromisingCut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#EmotionalCut"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Agent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Background"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePOontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GovernmentLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#MediaLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScienceLens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ConspiracyTheoryGroup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#GeneralPublic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#ScientificCommunity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Testimony"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Expert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Investigator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Proponent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Scientist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Skeptic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Whistleblower"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#Witness"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NegativeAttitude"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#NeutralAttitude"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/aviation#PositiveAttitude"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
