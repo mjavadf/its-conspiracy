@@ -1,0 +1,92 @@
+[
+{
+    "eventuality": {
+        "type": "Report",
+        "description": "A report detailing the alleged manipulation of public health statistics."
+    },
+    "agent": {
+        "category": "Community",
+        "type": "GeneralPublic",
+        "name": "John Doe"
+    },
+    "attitude": "NegativeAttitude",
+    "background": {
+        "type": "HistoricalContext",
+        "details": "Past incidents of health statistic manipulation have raised public concerns."
+    },
+    "cut": "CompromisingCut",
+    "lens": "ConspiracyLens"
+},
+{
+    "eventuality": {
+        "type": "Testimony",
+        "description": "A whistleblower testimony about unethical practices in a tech company."
+    },
+    "agent": {
+        "category": "Person",
+        "type": "Whistleblower",
+        "name": "Jane Smith"
+    },
+    "attitude": "NeutralAttitude",
+    "background": {
+        "type": "PersonalExperience",
+        "details": "The whistleblower worked for the company for over a decade."
+    },
+    "cut": "EmotionalCut",
+    "lens": "MediaLens"
+},
+{
+    "eventuality": {
+        "type": "Event",
+        "description": "A governmental inquiry into potential surveillance overreach."
+    },
+    "agent": {
+        "category": "Community",
+        "type": "Government",
+        "name": "Federal Investigation Bureau"
+    },
+    "attitude": "PositiveAttitude",
+    "background": {
+        "type": "HistoricalContext",
+        "details": "Previous accusations of surveillance have been a recurring concern."
+    },
+    "cut": "AdvocacyCut",
+    "lens": "GovernmentLens"
+},
+{
+    "eventuality": {
+        "type": "Object",
+        "description": "A newly developed drug claimed to have dangerous side effects."
+    },
+    "agent": {
+        "category": "Community",
+        "type": "PharmaceuticalCompanies",
+        "name": "Meditech Corp."
+    },
+    "attitude": "NegativeAttitude",
+    "background": {
+        "type": "HistoricalContext",
+        "details": "Several past lawsuits against the company for similar issues."
+    },
+    "cut": "CompromisingCut",
+    "lens": "ScienceLens"
+},
+{
+    "eventuality": {
+        "type": "Report",
+        "description": "A confidential report suggesting potential manipulation in climate change data."
+    },
+    "agent": {
+        "category": "Person",
+        "type": "Proponent",
+        "name": "Alex Green"
+    },
+    "attitude": "NegativeAttitude",
+    "background": {
+        "type": "PersonalExperience",
+        "details": "The proponent has a background in environmental activism."
+    },
+    "cut": "EmotionalCut",
+    "lens": "ConspiracyLens"
+},
+]
