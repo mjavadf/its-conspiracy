@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry/"
+     xml:base="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="https://w3id.org/framester/schema/"
+     xmlns:CT_ontology="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#"
+     xmlns:business_and_industry="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry">
+        <owl:imports rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#claims -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#claims">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#gives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#gives">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#interpretedAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#interpretedAs">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#investigates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#investigates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PharmaceuticalCompanies"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#servesAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#servesAs">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#teaches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#teaches">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#writes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#writes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#hasComponent -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#hasComponent">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
+        <rdfs:comment>the conceptualizer or perspective holder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude">
+        <rdfs:comment>represents the values and the goals of the agent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background">
+        <rdfs:comment>represents the social context that can shape the narrative of an agent</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut">
+        <rdfs:comment>represents the result of an eventuality that has been perspectivized through a lenss</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality">
+        <rdfs:comment>any occurrence subjected to perspectivization</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens">
+        <rdfs:comment>represents the point of view to take on to interpret reality</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PharmaceuticalCompanies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PharmaceuticalCompanies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+        <rdfs:comment>Any enterprise which sells medicines</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut"/>
+        <rdfs:comment>represents perspectives that actively support and advocate for the conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>any group of people who share the same goal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>represents interpretations or perspectives that expose weaknesses or flaws in a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#EmotionalCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#EmotionalCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>represents interpretations driven by emotional appeals</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>a person specialized in a topic</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#HistoricalContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#HistoricalContext">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>person who finds the proofs for a conspiracy theory</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:comment>a singular individual</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>member of the scientific community</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Whistleblower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Whistleblower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>insider of a community accused of nefarious actions by the conspiracy theory who reveals important information regarding the wrongdoings of said community</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#CollusionConspiracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#CollusionConspiracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens"/>
+        <CT_ontology:hasComponent rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfCollusion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ConfidentialDocument -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ConfidentialDocument">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object"/>
+        <business_and_industry:interpretedAs rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfCollusion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#DavidMartinez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#DavidMartinez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator"/>
+        <business_and_industry:investigates rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PhurduePharma"/>
+        <business_and_industry:writes rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#MartinezExposé"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#MartinezExposé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#MartinezExposé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#MartinezGroup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#MartinezGroup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup"/>
+        <business_and_industry:claims rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#CollusionConspiracy"/>
+        <business_and_industry:claims rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PriceAdjustmentConspiracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#Patient -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#Patient">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness"/>
+        <business_and_industry:gives rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PatientTestimony"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PatientTestimony -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PatientTestimony">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony"/>
+        <business_and_industry:interpretedAs rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfPriceAdjustment"/>
+        <CT_ontology:viewedThrough rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PriceAdjustmentConspiracy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PhurduePharma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PhurduePharma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PharmaceuticalCompanies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PriceAdjustmentConspiracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#PriceAdjustmentConspiracy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens"/>
+        <CT_ontology:hasComponent rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfPriceAdjustment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfCollusion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfCollusion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut"/>
+        <CT_ontology:conveys rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NegativeAttitude"/>
+        <CT_ontology:conveys rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ProponentAttitude"/>
+        <rdfs:comment>Proof of an alleged collusion among companies to artificially inflate prices</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfPriceAdjustment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/8/business_and_industry#ProofOfPriceAdjustment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut"/>
+        <CT_ontology:conveys rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NegativeAttitude"/>
+        <CT_ontology:conveys rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ProponentAttitude"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Whistleblower"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

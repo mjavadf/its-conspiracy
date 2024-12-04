@@ -1,0 +1,507 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology/"
+     xml:base="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="https://w3id.org/framester/schema/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#InterpretedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#InterpretedWith">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#comesFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#comesFrom">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#conveys -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#conveys">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#gives -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#gives">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#hasComponent">
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+                    <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#shotThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#shotThrough">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#viewedThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#viewedThrough">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#writes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#writes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#PerspectivisationTheorySituation"/>
+        <rdfs:comment>The conceptualizer or perspective holder</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude">
+        <rdfs:comment>The attitude of a conceptualiser towards an eventuality, perspectivised through the application of a lens.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background">
+        <rdfs:comment>The background knowledge for an eventuality targeted by perspectivisation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut">
+        <rdfs:comment>The cut emerging from perspectivising an eventuality through a lens.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality">
+        <rdfs:comment>The eventuality targeted by perspectivisation, explicitly or implicitly extracted from its background knowledge.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens">
+        <rdfs:comment>The lens used by perspectivisation on an eventuality.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>Represents interpretations that actively support and advocate for the conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>Any group of people who share the same goal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>Represents perspectives or interpretations that expose weaknesses or flaws in a conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        <rdfs:comment>The lens used by a conspiracy theory group or individual. Supports a conspiracy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+        <rdfs:comment>Any group of individuals who share the same support for a conspiracy theory, usually with the same talking points.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#EmotionalCut -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#EmotionalCut">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>Represents interpretations driven by emotional appeals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Expert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>An individual highly specialized in a topic or discipline.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+        <rdfs:comment>All or most people, especially those not part of a specified group; ordinary people as opposed to officials, experts, politicians, conspiracists...</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+        <rdfs:comment>The group of people with the authority to govern a country or state.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        <rdfs:comment>The lens used by the govenment, produces the official narrative.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#HistoricalContext -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#HistoricalContext">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience"/>
+        <rdfs:comment>The ensemble of historical knowledge, usually (but not always) learned or taught in school.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>Individual who finds the proofs supporting a conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        <rdfs:comment>The lens used by media outlets.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:comment>Could be a document, a video or any material thing that could be interpreted with a cut.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+        <rdfs:comment>A singular individual</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PersonalExperience">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:comment>The knowledge gained through life, often by chance, as opposed to the knowledge taught in school, which is instead usually planned and common between individuals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:comment>A written account given of a particular matter, especially in the form of an official document, after thorough investigation by a person or body.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        <rdfs:comment>The lens used by the scientific community or by an individual scientist. Usually does not support a conspiracy theory.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Community"/>
+        <rdfs:comment>The community of all the scientists who usually homogeneously share similar opinions and conclusions towards conspiracy theories.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>Member of the scientific community, must be a scientist.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:comment>A formal written of spoken statement, a recalling of a personally-experienced event.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Whistleblower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Whistleblower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>Insider of a community accused of nefarious actions by the conspiracy theory who reveals important information regarding the wrongdoings of said community.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Witness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Person"/>
+        <rdfs:comment>Individual who offers their testimony.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <rdfs:comment>A thing that happens or takes place, especially one of importance.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NegativeAttitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NegativeAttitude">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>Any type of attitude which interprets negatively an eventuality, meaning that produces a not favourable cut towards an eventuality.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NeutralAttitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#NeutralAttitude">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>Any type of attitude which interprets neutrally an eventuality, meaning that produces an unbiased cut towards an eventuality.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PositiveAttitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#PositiveAttitude">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>Any type of attitude which interprets positively an eventuality, meaning that produces a  favourable cut towards an eventuality.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ProponentAttitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ProponentAttitude">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>Any type of attitude which interprets an eventuality as a supporting element towards a conspiracy theory.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#SkepticalAttitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#SkepticalAttitude">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <rdfs:comment>Any type of attitude which interprets an eventuality as a contrasting element against a conspiracy theory.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+            <rdf:Description rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#AdvocancyCut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#CompromisingCut"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#EmotionalCut"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GovernmentLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#MediaLens"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScienceLens"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ConspiracyTheoryGroup"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#GeneralPublic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#ScientificCommunity"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/9/CT_ontology#Testimony"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utente/ontologies/2024/CT_ontology#Event"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
